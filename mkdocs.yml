@@ -1,0 +1,313 @@
+site_name: Slowist's Note
+site_url: https://slowist-lee.github.io/notebook/
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    logo: material/book
+  favicon: images/favicon.png
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to system preference
+  font: false
+    # code: JetBrains Mono
+  # icon:
+    # logo: assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+repo_url: https://github.com/Slowist-Lee/notebook
+repo_name: Slowist/Notebook
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Slowist-Lee/slowist-notebook
+    - icon: fontawesome/regular/envelope 
+      link: mailto:<leexin005@163.com> 
+
+  feedback:
+    title: 此页面有帮助吗？
+    ratings:
+      - icon: material/thumb-up-outline
+        name: This page was helpful
+        data: 1
+        note: >-
+          谢谢你的反馈！
+      - icon: material/thumb-down-outline
+        name: This page could be improved
+        data: 0
+        note: >-
+          Thanks for your feedback! 
+
+plugins:
+  - mermaid2: {}
+  - search
+  # - encryptcontent:
+  #     title_prefix: '🔒'
+  #     summary: '请输入密码查看.'
+  #     encryption_info_message: '此内容已加密, 请输入密码查看.'
+  #     decryption_failure_message: '密码错误, 如有需要，请联系Slowist'
+  #     hljs: False
+  #     encrypted_something:
+  #       mkdocs-encrypted-toc: [nav, class]
+  - statistics
+  - changelog
+  - git-revision-date-localized:
+      enable_creation_date: true 
+  - toc
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  # - mdx_truly_sane_lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight: # 代码块高亮
+      auto_title: false # 显示编程语言名称
+extra_javascript:
+  - js/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
+  - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
+  - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+copyright: Copyright &copy; 2025 Slowist/All Rights Reserved. # 左下角的版权声明
+
+nav:
+  - Home:
+    - index.md
+    - 更新记录: changelog.md
+    - 友链: Friends.md
+    - 笔记目录: Content.md
+  - Computer Science:
+    - cs/index.md
+    - Language:
+      - C:
+        - cs/pl/C/index.md
+        - Previous: cs/pl/C/PreviousNote.md
+        - Ch7 Pointer: cs/pl/C/Pointer.md
+        - Ch8 String: cs/pl/C/String.md
+        - Ch9 Structure: cs/pl/C/Structure.md
+        - Ch10 Linked List: cs/pl/C/LinkedList.md
+        - Ch12 File: cs/pl/C/file.md
+        - Error: cs/pl/C/Error-Sum.md
+        - Misc: cs/pl/C/misc.md
+      - Cpp:
+        - cs/pl/cpp/index.md
+        - Basic: cs/pl/cpp/Basic.md
+      - Asm:
+        - cs/pl/Asm/index.md
+        - 理论复习: cs/pl/Asm/sum.md
+        - Exercise: cs/pl/Asm/Exercise.md
+        - Answer: cs/pl/Asm/Answer.md
+        - Misc: cs/pl/Asm/Misc.md
+    - Algorithm:
+      - cs/algorithm/index.md
+      - cs61b:
+        - Note:
+          - Lecture1 Introduction: cs/algorithm/cs61b/Lecture1_Introduction.md
+          - Lecture2 Defining and Using Classes: cs/algorithm/cs61b/Lecture2_Defining and Using Classes.md
+          - Lecture3 ListsI References Recursion and Lists: cs/algorithm/cs61b/Lecture3_ListsI_References_Recursion_and_Lists.md
+          - Lecture4: cs/algorithm/cs61b/Lecture4.md
+        - Labs:
+          - signup: cs/algorithm/cs61b/Sign_up.md
+          - HW0: cs/algorithm/cs61b/HW0.md
+          - HW0B: cs/algorithm/cs61b/HW0B.md
+          - lab1: cs/algorithm/cs61b/Lab1_Note.md
+          - proj1: cs/algorithm/cs61b/Proj1_Summary.md
+      - 数据结构基础:
+        - cs/algorithm/fds/index.md
+    - System: 
+      - cs/system/index.md
+      - CO:
+        - cs/system/CO/index.md
+        - 1. Introduction: cs/system/CO/1.md
+        - 2. Machine Language: cs/system/CO/2.md
+        - 3. Arithmatic: cs/system/CO/3.md
+    - Tools:
+      - cs/tools/index.md
+      - 1. Git: cs/tools/git-advance.md
+      - 2. PA0: cs/tools/PA0.md
+      - 3. WSL: cs/tools/WSL.md
+    - CTF:
+      - cs/ctf/index.md
+      - Lab0:
+        - Part 1: cs/ctf/lab0/lab0-1.md
+        - Part 2: cs/ctf/lab0/lab0-2.md
+      - web:
+        - Note 1: cs/ctf/web/note-1.md
+        - Note 2: cs/ctf/web/note-2.md
+        - Lab 1: cs/ctf/web/lab-1.md
+        - Lab 2: cs/ctf/web/lab-3.md
+      - misc:
+        - Note: cs/ctf/misc/note-2.md
+        - Lab: cs/ctf/misc/misc-lab1.md
+      - pwn:
+        - cs/ctf/pwn/index.md
+      - reverse:
+        - cs/ctf/reverse/index.md
+      - crypto:
+        - cs/ctf/crypto/index.md
+    - 计算机科学基础(A):
+      - cs/fundamental/index.md
+      - Note | 笔记: cs/fundamental/note.md
+      - Office | 期中: cs/fundamental/office.md
+      - Test | 自测: cs/fundamental/test.md
+  - AI:
+    - AI/index.md
+    - DeepLearning:
+      - AI/DL/index.md
+      - 1. Introduction: AI/DL/1.md
+  - Math: 
+    - Math/index.md
+    - 复变函数与积分变换: Math/complex/index.md
+    - 概率论与数理统计: Math/Probability/Error.md
+    - 数学建模: 
+      - Math/MathModel/index.md
+      - 1. 数学规划: Math/MathModel/program/program.md
+      - 2. 图论模型: Math/MathModel/graph/graph.md
+      - 3. 组合优化: Math/MathModel/combination-optimize/note.md
+      - 4. 习题笔记: Math/MathModel/exercise/index.md
+      - 5. Review: Math/MathModel/review/note.md
+      - 6. Test:
+        - 24-25秋冬期末(ACEE): Math/MathModel/test/index.md
+  - ISEE: 
+    - isee/index.md
+    - 信息理论:
+      - isee/information/index.md
+      - 第一节、信息的度量: isee/information/1.md
+      - 第二节、随机变量的熵: isee/information/2.md
+      - 第三节、随机变量的平均互信息: isee/information/3.md
+      - 第四节、连续随机变量的互信息和微分熵: isee/information/4.md
+      - 第五讲、平稳离散信源的熵: isee/information/5.md
+      - 第六节、信息的无损压缩: isee/information/6.md
+      - 第七节、等长编码: isee/information/7.md
+      - 第八节、不等长编码: isee/information/8.md
+      - 第九节、编码方式: isee/information/9.md
+      - 第十节、离散无记忆信道: isee/information/10.md
+      - 第十一节、信道的组合: isee/information/11.md
+      - 第十二节、离散无记忆信道容量: isee/information/12.md
+      - 第十三节、加性高斯噪声（AWGN）信道: isee/information/13.md
+      - 第十四节、信息的有损压缩: isee/information/14.md
+      - 第三章复习总结: isee/information/Chap3Review.md
+    - 电子电路基础: 
+      - isee/elec/index.md
+      - 学习路径: isee/elec/share.md
+      - 电路部分:
+        - 基本概念: 
+          - isee/elec/EC/concepts/index.md
+        - 动态电路时域分析: 
+          - isee/elec/EC/transition/index.md
+        - 相量分析: 
+          - isee/elec/EC/phasor/index.md
+        - 期末补天: 
+          - isee/elec/EC/all/index.md
+      - 模电部分:
+        - BJT:
+          - isee/elec/bjt/index.md
+        - MOS:
+          - isee/elec/MOS/index.md
+        - 多级、差分:
+          - isee/elec/Hard/index.md
+        - 运算放大器:
+          - isee/elec/opam/index.md
+        - 频率响应:
+          - isee/elec/freq/index.md
+        - 反馈:
+          - isee/elec/feedback/index.md
+        - 功率放大器:
+          - isee/elec/pa/index.md
+      - 期末试题:
+        - isee/elec/test.md
+    - 电子电路设计实验I:
+      - isee/elec-exp1/index.md
+  - English:
+    - English/index.md
+    - Interpretation: 
+      - English/Interpretation/index.md
+      - 学习体验:
+        - English/Interpretation/experience/Harvest.md
+        - English/Interpretation/experience\Interpretation--Self Assessment.md
+      - HW && Topic: 
+        - English/Interpretation/homework/Welcome Speech.md
+        - English/Interpretation/homework/City and Travel.md
+        - English/Interpretation/homework/Culture and Education.md
+        - English/Interpretation/homework/Science.md
+      - Learning Resources:
+        - English/Interpretation/homework/Material.md
+    - Misc:
+      - English/misc/index.md
+      - 语料整理1: English/misc/writing.md
+  - Others: 
+    - Others/index.md
+    - 雕版印刷与课本文化: Others/PrintingCulture.md
+    - 控制论: Others/control-theory.md
+    - 大物实验: Others/PhyExperiment.md
+    - 无线网络应用:
+      - Others/Network/index.md
+      - Lecture 4: Others/Network/Lecture4.md
+      - Lecture 6: Others/Network/Lecture6.md
+  - Writings:
+    - Writings/index.md
+    - Essay:
+      - 一：当回想起IAI: Writings/essay/01.md
+      - 二：带论的碎碎念: Writings/essay/02.md
+      - 五：支教流水账: Writings/essay/05.md
+      - 八：About Slowist: Writings/essay/08.md
+      - 十：ACEE报名体验: Writings/essay/10.md
+      - 十一：About IAI: Writings/essay/11.md
+      - 十二：大一回忆录: Writings/essay/12.md
+      - 十三：分流建议: Writings/essay/13.md
+      - 十四：转专业路上的碎碎念: Writings/essay/14.md
+      - 十五：Turing Complete 全过程日记: Writings/essay/15.md
+      - 十六：大二课程总结: Writings/essay/16.md
+      - 二十：一封回信: Writings/essay/20.md
+    - Emotion:
+      - 三: Writings/emotion/03.md
+      - 四: Writings/emotion/04.md
+      - 六: Writings/emotion/06.md
+      - 七: Writings/emotion/07.md  
+      - 九: Writings/emotion/09.md
+    - Record:
+      - Writings/record/index.md
+      - 二月: Writings/record/2025-02.md
