@@ -1,6 +1,10 @@
 # DeepLearning
 
-!!! abstract
-    自学，参考李沐《动手学深度学习》   
-    加油！  
+>[!ABSTRACT]
+>主要参考：
+>- 李沐《动手学深度学习》
+>- 后续可能参考 Couresa - Deep Learning.
 
+## Table of Contents
+
+TBD

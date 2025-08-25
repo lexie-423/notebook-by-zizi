@@ -68,14 +68,15 @@ extra:
 plugins:
   - mermaid2: {}
   - search
-  # - encryptcontent:
-  #     title_prefix: '🔒'
-  #     summary: '请输入密码查看.'
-  #     encryption_info_message: '此内容已加密, 请输入密码查看.'
-  #     decryption_failure_message: '密码错误, 如有需要，请联系Slowist'
-  #     hljs: False
-  #     encrypted_something:
-  #       mkdocs-encrypted-toc: [nav, class]
+  - callouts
+  - encryptcontent:
+      title_prefix: '🔒'
+      summary: '请输入密码查看.'
+      encryption_info_message: '此内容已加密, 请输入密码查看.'
+      decryption_failure_message: '密码错误, 如有需要，请联系Slowist'
+      hljs: False
+      encrypted_something:
+        mkdocs-encrypted-toc: [nav, class]
   - statistics
   - changelog
   - git-revision-date-localized:
@@ -84,10 +85,14 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - nl2br
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - def_list
+
+
+
   # - mdx_truly_sane_lists
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -164,6 +169,28 @@ nav:
         - 1. Introduction: cs/system/CO/1.md
         - 2. Machine Language: cs/system/CO/2.md
         - 3. Arithmatic: cs/system/CO/3.md
+      - DD:
+        - cs/system/DD/index.md
+        - verilog:
+          - cs/system/DD/verilog/index.md
+          - Note: cs/system/DD/verilog/Language.md
+          - Sequence: cs/system/DD/verilog/Sequence.md
+          - FSM: cs/system/DD/verilog/FSM.md
+        - 数字系统设计:
+          - cs/system/DD/dld/index.md
+          - 1 基础理论知识: cs/system/DD/dld/1.md
+          # - 2 门电路: cs/system/DD/dld/2.md
+          # - 3 组合逻辑: cs/system/DD/dld/3.md
+          # - 4 时序逻辑: cs/system/DD/dld/4.md
+          # - 5 控制器与微码: cs/system/DD/dld/5.md
+          # - 6 测试器与查错: cs/system/DD/dld/6.md
+          # - 7 脉冲电路: cs/system/DD/dld/7.md
+          # - 8 处理器: cs/system/DD/dld/8.md
+      # - HPC: 
+      #   - cs/system/HPC/index.md
+      #   - 1. Tools: cs/system/HPC/Tools.md
+      # - CSAPP:
+      #   - cs/system/CSAPP/index.md
     - Tools:
       - cs/tools/index.md
       - 1. Git: cs/tools/git-advance.md
@@ -195,9 +222,14 @@ nav:
       - Test | 自测: cs/fundamental/test.md
   - AI:
     - AI/index.md
-    - DeepLearning:
+    - 深度学习: 
       - AI/DL/index.md
-      - 1. Introduction: AI/DL/1.md
+      - 1. Pytorch 基础使用: AI/DL/1.md
+      - 2.自动微分的Pytorch实现: AI/DL/2.md
+    - 机器学习:
+      - AI/ML/index.md
+      - 1. 机器学习概述: AI/ML/0.md
+      - 2. 统计学习&监督学习概论: AI/ML/1.md
   - Math: 
     - Math/index.md
     - 复变函数与积分变换: Math/complex/index.md
@@ -274,7 +306,21 @@ nav:
         - English/Interpretation/homework/Culture and Education.md
         - English/Interpretation/homework/Science.md
       - Learning Resources:
-        - English/Interpretation/homework/Material.md
+        - English/Interpretation/homework/Material.md    
+    - Toefl:
+      - Reading:
+        - TPO: English/toefl/reading/tpo.md
+      - Listening:
+        - TPO: English/toefl/listening/tpo.md
+      - Speaking:
+        - note: English/toefl/speaking/note.md 
+      - Writing:
+        - Exercise:
+          - 学术写作: English/toefl/writing/exercise/Academic.md
+          - 综合写作: English/toefl/writing/exercise/Integrated.md
+        - Note:
+          - 学术写作: English/toefl/writing/note/Academic.md
+          - 综合写作: English/toefl/writing/note/Integrated.md
     - Misc:
       - English/misc/index.md
       - 语料整理1: English/misc/writing.md
