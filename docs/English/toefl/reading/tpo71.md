@@ -44,3 +44,21 @@
 > 之前是因为没读懂，实际上读懂之后选C而不是A是比较显然的，因为这段话讲的实际是在这个岛上什么在负责对外贸易，那么第一个推断是capital才能有资金有资历来支撑海上贸易，所以C讲的没问题
 
 
+> [!note]+ Paragraph
+> Palatial control over foreign trade is more difficult to prove archaeologically, as there is often no way to determine where on Crete any specific item found abroad was made. One argument often brought to the fore is that only the palaces would have the capital (to use a modern term) to finance the goods and shipping for long trade journeys, not to mention to handle the risks of possible sea wrecks. Another argument,however,lies in the nature of the Minoan goods found abroad.For example,Kamares ware pottery from Minoan Crete has come to light on the coasts of Cyprus and in areas of the Near East such as Egypt and Syria. This Kamares ware is clearly a product of palatial manufacture. The ceramics from before and after the classical Kamares wares are clearly local creations-Knossian ware being distinct from Malhan ware. By contrast, the Kamares ware made in the palaces is similar from palace to palace but is utterly distinct from the provincial wares. The number of foreign goods stored in the palaces,especially Zakro, also gives evidence for the palatial control of international exchange.
+
+
+
+> [!question]+ Question
+> According to paragraph 5 why did the discovery of Kamares ware in a number of places outside Crete provide support for the idea that the palaces had some control over foreign trade?
+> A. Because it is possible to determine in what part of Crete any particular piece of Kamares ware was made
+> B. Because Kamares ware can be clearly identified as coming from palace produclion centers
+> C. Because it is known that Kamares ware was produced only during a certain period
+> D. Because classical Kamares ware was produced only within Crete
+
+> [!check]- Answer
+> B.
+> A实际上没体现到底是哪一part
+> B. This Kamares ware is clearly a product of palatial manufacture.直接对应，并且后面主要论述的就是palatial和province这里是不一样的
+> 另外这个come to light是曝光、发现的意思，而不是发掘。
+

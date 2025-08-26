@@ -1,35 +1,29 @@
-# TPO 格式转换工具
+<div class="tpo-formatter-container">
+    <h1>TPO 格式化工具</h1>
+    <p class="subtitle">在此输入内容，一键生成标准 Callout 格式。</p>
 
-<div class="container">
-    <div class="input-grid">
-        <div class="input-group">
-            <label for="paragraph-input">Paragraph (段落)</label>
-            <textarea id="paragraph-input" placeholder="在此输入段落原文..."></textarea>
-        </div>
-        
-        <div class="input-group">
-            <label for="question-input">Question (问题)</label>
-            <textarea id="question-input" placeholder="在此输入问题..."></textarea>
-        </div>
+    <div class="form-group">
+        <label for="paragraph-input">Paragraph (段落)</label>
+        <textarea id="paragraph-input" placeholder="在此输入段落原文..."></textarea>
+    </div>
+    
+    <div class="form-group">
+        <label for="question-input">Question (问题与选项)</label>
+        <textarea id="question-input" placeholder="在此输入问题及 A/B/C/D 选项..."></textarea>
+    </div>
 
-        <div class="input-group">
-            <label for="answer-input">Answer (答案与解析)</label>
-            <textarea id="answer-input" placeholder="在此输入答案和解析..."></textarea>
-        </div>
+    <div class="form-group">
+        <label for="answer-input">Answer (答案与解析)</label>
+        <textarea id="answer-input" placeholder="在此输入答案和您的解析..."></textarea>
     </div>
 
     <div class="controls">
-        <button id="generate-btn">生成与预览</button>
-        <button id="copy-btn">一键复制</button>
+        <button id="generate-btn" class="btn btn-primary">生成格式</button>
+        <button id="copy-btn" class="btn btn-success">一键复制</button>
     </div>
 
-    <div class="output-section">
-        <h2>Markdown 预览</h2>
-        <div id="preview-area">
-            <p style="color: #999;">这里将显示格式化后的预览效果...</p>
-        </div>
+    <div class="form-group">
+        <label for="output-text">格式化输出 (只读)</label>
+        <textarea id="output-text" readonly placeholder="点击“生成格式”后，结果将显示在这里..."></textarea>
     </div>
-
-    <!-- 用于复制的隐藏文本域 -->
-    <textarea id="output-text" style="position: absolute; left: -9999px;"></textarea>
 </div>
