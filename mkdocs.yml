@@ -297,6 +297,8 @@ nav:
         - isee/elec/test.md
     - 电子电路设计实验I:
       - isee/elec-exp1/index.md
+    - 数电:
+      - isee/dd/index.md
   - English:
     - English/index.md
     - Interpretation: 
