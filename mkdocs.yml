@@ -311,6 +311,7 @@ nav:
     - Toefl:
       - Reading:
         - TPO65: English/toefl/reading/tpo65.md
+        - TPO71: English/toefl/reading/tpo71.md
         - TPO74: English/toefl/reading/tpo74.md
         - Formatter: English/toefl/reading/tpo_formatter.md
       - Listening:

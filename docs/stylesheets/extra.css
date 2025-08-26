@@ -139,20 +139,19 @@ width: calc(50% - 15px) !important;
 
 /*tpo formatter*/
 
-/* TPO 格式转换工具 - 支持亮/暗模式 */
+/* TPO 格式转换工具 - 经典 UI + 夜间模式 */
 
 /* --- 1. 定义颜色变量 --- */
 .tpo-formatter-container {
-    /* 默认亮色模式 (Light Mode) */
-    --tpo-bg-color: #fff;
-    --tpo-text-color: #333;
-    --tpo-subtle-text-color: #666;
-    --tpo-border-color: #e0e0e0;
-    --tpo-shadow-color: rgba(0, 0, 0, 0.08);
+    /* 默认亮色模式 (Light Mode) - 这是您喜欢的版本 */
+    --tpo-card-bg: #fff;
+    --tpo-card-border: #e0e0e0;
+    --tpo-card-shadow: rgba(0, 0, 0, 0.08);
+    --tpo-main-text: #333;
+    --tpo-subtle-text: #666;
     --tpo-textarea-bg: #f9f9f9;
     --tpo-textarea-border: #ccc;
     --tpo-textarea-focus-bg: #fff;
-    --tpo-textarea-focus-shadow: rgba(82, 108, 254, 0.2);
     --tpo-output-bg: #f5f7fa;
     --tpo-output-border: #dfe4ea;
 }
@@ -160,29 +159,28 @@ width: calc(50% - 15px) !important;
 /* 当 Material 主题切换到夜间模式时，自动应用这些变量 */
 [data-md-color-scheme="slate"] .tpo-formatter-container {
     /* 夜间模式 (Dark Mode) */
-    --tpo-bg-color: #2d2d2d; /* 深灰色背景 */
-    --tpo-text-color: #e0e0e0; /* 亮灰色文字 */
-    --tpo-subtle-text-color: #aaa;
-    --tpo-border-color: #444;
-    --tpo-shadow-color: rgba(0, 0, 0, 0.2);
-    --tpo-textarea-bg: #222;
-    --tpo-textarea-border: #555;
-    --tpo-textarea-focus-bg: #2d2d2d;
-    --tpo-textarea-focus-shadow: rgba(82, 108, 254, 0.3);
-    --tpo-output-bg: #262626;
-    --tpo-output-border: #4a4a4a;
+    --tpo-card-bg: #2d333b; /* 一个柔和的深色背景 */
+    --tpo-card-border: #434a53;
+    --tpo-card-shadow: rgba(0, 0, 0, 0.25);
+    --tpo-main-text: #cdd9e5; /* 适合阅读的亮灰色文字 */
+    --tpo-subtle-text: #88929d;
+    --tpo-textarea-bg: #22272e;
+    --tpo-textarea-border: #434a53;
+    --tpo-textarea-focus-bg: #2d333b;
+    --tpo-output-bg: #20252b;
+    --tpo-output-border: #434a53;
 }
 
-/* --- 2. 应用变量到组件样式 --- */
+/* --- 2. 应用变量到组件样式 (基于您喜欢的版本) --- */
 .tpo-formatter-container {
     max-width: 900px;
     margin: 2rem auto;
     padding: 2.5rem;
-    background-color: var(--tpo-bg-color);
+    background-color: var(--tpo-card-bg);
     border-radius: 16px;
-    box-shadow: 0 8px 30px var(--tpo-shadow-color);
-    border: 1px solid var(--tpo-border-color);
-    transition: background-color 0.25s, border-color 0.25s; /* 添加平滑过渡效果 */
+    box-shadow: 0 8px 30px var(--tpo-card-shadow);
+    border: 1px solid var(--tpo-card-border);
+    transition: background-color 0.25s, border-color 0.25s;
 }
 
 .tpo-formatter-container h1 {
@@ -191,13 +189,13 @@ width: calc(50% - 15px) !important;
     margin-bottom: 0.5rem;
     font-size: 2rem;
     font-weight: 700;
-    color: var(--tpo-text-color);
+    color: var(--tpo-main-text);
 }
 
 .tpo-formatter-container .subtitle {
     text-align: center;
     margin-bottom: 2.5rem;
-    color: var(--tpo-subtle-text-color);
+    color: var(--tpo-subtle-text);
     font-size: 1rem;
 }
 
@@ -209,7 +207,7 @@ width: calc(50% - 15px) !important;
     display: block;
     font-weight: 600;
     margin-bottom: 0.75rem;
-    color: var(--tpo-text-color);
+    color: var(--tpo-main-text);
     font-size: 0.9rem;
 }
 
@@ -222,16 +220,16 @@ width: calc(50% - 15px) !important;
     font-size: 1rem;
     line-height: 1.6;
     resize: vertical;
-    transition: all 0.25s ease-in-out;
     box-sizing: border-box;
     background-color: var(--tpo-textarea-bg);
-    color: var(--tpo-text-color); /* 确保文本颜色也改变 */
+    color: var(--tpo-main-text);
+    transition: all 0.25s ease-in-out;
 }
 
 .tpo-formatter-container textarea:focus {
     outline: none;
     border-color: var(--md-primary-fg-color, #526cfe);
-    box-shadow: 0 0 0 3px var(--tpo-textarea-focus-shadow);
+    box-shadow: 0 0 0 3px rgba(82, 108, 254, 0.2);
     background-color: var(--tpo-textarea-focus-bg);
 }
 
@@ -274,7 +272,7 @@ width: calc(50% - 15px) !important;
 #output-text {
     min-height: 250px;
     background-color: var(--tpo-output-bg);
-    color: var(--tpo-text-color);
+    color: var(--tpo-main-text);
     font-family: 'Courier New', Courier, monospace;
     border-color: var(--tpo-output-border);
     cursor: default;

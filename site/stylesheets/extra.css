@@ -139,15 +139,50 @@ width: calc(50% - 15px) !important;
 
 /*tpo formatter*/
 
-/* TPO 格式转换工具 - 新版样式 */
+/* TPO 格式转换工具 - 支持亮/暗模式 */
+
+/* --- 1. 定义颜色变量 --- */
+.tpo-formatter-container {
+    /* 默认亮色模式 (Light Mode) */
+    --tpo-bg-color: #fff;
+    --tpo-text-color: #333;
+    --tpo-subtle-text-color: #666;
+    --tpo-border-color: #e0e0e0;
+    --tpo-shadow-color: rgba(0, 0, 0, 0.08);
+    --tpo-textarea-bg: #f9f9f9;
+    --tpo-textarea-border: #ccc;
+    --tpo-textarea-focus-bg: #fff;
+    --tpo-textarea-focus-shadow: rgba(82, 108, 254, 0.2);
+    --tpo-output-bg: #f5f7fa;
+    --tpo-output-border: #dfe4ea;
+}
+
+/* 当 Material 主题切换到夜间模式时，自动应用这些变量 */
+[data-md-color-scheme="slate"] .tpo-formatter-container {
+    /* 夜间模式 (Dark Mode) */
+    --tpo-bg-color: #2d2d2d; /* 深灰色背景 */
+    --tpo-text-color: #e0e0e0; /* 亮灰色文字 */
+    --tpo-subtle-text-color: #aaa;
+    --tpo-border-color: #444;
+    --tpo-shadow-color: rgba(0, 0, 0, 0.2);
+    --tpo-textarea-bg: #222;
+    --tpo-textarea-border: #555;
+    --tpo-textarea-focus-bg: #2d2d2d;
+    --tpo-textarea-focus-shadow: rgba(82, 108, 254, 0.3);
+    --tpo-output-bg: #262626;
+    --tpo-output-border: #4a4a4a;
+}
+
+/* --- 2. 应用变量到组件样式 --- */
 .tpo-formatter-container {
     max-width: 900px;
     margin: 2rem auto;
     padding: 2.5rem;
-    background-color: #fff;
+    background-color: var(--tpo-bg-color);
     border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-    border: 1px solid #e0e0e0;
+    box-shadow: 0 8px 30px var(--tpo-shadow-color);
+    border: 1px solid var(--tpo-border-color);
+    transition: background-color 0.25s, border-color 0.25s; /* 添加平滑过渡效果 */
 }
 
 .tpo-formatter-container h1 {
@@ -156,12 +191,13 @@ width: calc(50% - 15px) !important;
     margin-bottom: 0.5rem;
     font-size: 2rem;
     font-weight: 700;
+    color: var(--tpo-text-color);
 }
 
 .tpo-formatter-container .subtitle {
     text-align: center;
     margin-bottom: 2.5rem;
-    color: #666;
+    color: var(--tpo-subtle-text-color);
     font-size: 1rem;
 }
 
@@ -173,7 +209,7 @@ width: calc(50% - 15px) !important;
     display: block;
     font-weight: 600;
     margin-bottom: 0.75rem;
-    color: #333;
+    color: var(--tpo-text-color);
     font-size: 0.9rem;
 }
 
@@ -181,21 +217,22 @@ width: calc(50% - 15px) !important;
     width: 100%;
     min-height: 180px;
     padding: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--tpo-textarea-border);
     border-radius: 8px;
     font-size: 1rem;
     line-height: 1.6;
     resize: vertical;
-    transition: border-color 0.3s, box-shadow 0.3s;
+    transition: all 0.25s ease-in-out;
     box-sizing: border-box;
-    background-color: #f9f9f9;
+    background-color: var(--tpo-textarea-bg);
+    color: var(--tpo-text-color); /* 确保文本颜色也改变 */
 }
 
 .tpo-formatter-container textarea:focus {
     outline: none;
-    border-color: var(--md-primary-fg-color, #526cfe); /* 使用主题的主色调 */
-    box-shadow: 0 0 0 3px rgba(82, 108, 254, 0.2);
-    background-color: #fff;
+    border-color: var(--md-primary-fg-color, #526cfe);
+    box-shadow: 0 0 0 3px var(--tpo-textarea-focus-shadow);
+    background-color: var(--tpo-textarea-focus-bg);
 }
 
 .controls {
@@ -234,17 +271,17 @@ width: calc(50% - 15px) !important;
     background-color: #28a745;
 }
 
-/* 输出区域的特殊样式 */
 #output-text {
     min-height: 250px;
-    background-color: #f5f7fa;
-    color: #333;
-    font-family: 'Courier New', Courier, monospace; /* 使用等宽字体，方便查看格式 */
-    border-color: #dfe4ea;
+    background-color: var(--tpo-output-bg);
+    color: var(--tpo-text-color);
+    font-family: 'Courier New', Courier, monospace;
+    border-color: var(--tpo-output-border);
     cursor: default;
 }
+
 #output-text:focus {
-    box-shadow: none; /* 只读区域不需要聚焦效果 */
+    box-shadow: none;
 }
 
 /*tpo formatter ends*/
