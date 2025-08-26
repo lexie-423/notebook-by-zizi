@@ -314,7 +314,6 @@ nav:
         - TPO71: English/toefl/reading/tpo71.md
         - TPO74: English/toefl/reading/tpo74.md
         - 解析格式化工具: English/toefl/reading/tpo_formatter.md
-        - Printer: English/toefl/reading/printer.md
       - Listening:
         - TPO: English/toefl/listening/tpo.md
       - Speaking:
@@ -327,9 +326,17 @@ nav:
         - Note:
           - 学术写作: English/toefl/writing/note/Academic.md
           - 综合写作: English/toefl/writing/note/Integrated.md
-    - Misc:
-      - English/misc/index.md
-      - 语料整理1: English/misc/writing.md
+    - Material:
+      - English/material/index.md
+      - Words:
+        - TPO: English/material/words/tpo.md
+      - Writing:
+        - 劳动: English/material/writing/labor.md
+        - 心理健康: English/material/writing/mental.md
+  - Research:
+    - Research/index.md
+    - Clip: Research/Clip.md
+    - 电路识别: Research/Detection.md
   - Others: 
     - Others/index.md
     - 雕版印刷与课本文化: Others/PrintingCulture.md

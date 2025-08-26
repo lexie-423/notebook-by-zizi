@@ -75,3 +75,17 @@ F. Studies of brain activity suggest that the two facial pits provide snakes wit
 > 答案是C，虽然也没有很准确，其实我觉得更准确的是没有这样的认识或者意识，但是C是最接近的了，剩下的肯定不是这段话 **主要** 讲的东西嘛
 > hint是 Chemists had, however, no comparable way of examining air. 这里的comparable是和solid 和 liquid相比，也算是C的意思
 
+
+> [!note]+ Paragraph
+> In devising this apparatus, Hales had coincidentally furnished an instrument for catching and holding air, which could then be subjected to various tests. Used in this way the apparatus became known as the pneumatic through half a century after its invention, it became a **staple** of the chemical laboratory. It also became one of the key instruments in the reform of chemistry that we know as the chemical revolution because it was essential to incorporating a whole new state of matter, the gaseous state, into chemistry, alongside the already studied solid and liquid states. Once that step had been taken, it was possible to speculate and then to demonstrate that the gaseous state, like the solid and liquid states, could contain a variety of chemical substances. This was an enormous step, and it did not happen overnight. Hales had shown that air could be contained, washed, and purified, and tested chemically as well as physically. This, however, did not lead him to think that there was more than one kind of air. Air for him remained air, not one of a number of airs. Other chemists would take that essential step.
+
+> [!question]+ Question
+> The word "staple" in the passage is closest in meaning to
+> A. regular feature
+> B. effective tool
+> C. new device
+> D. distinct advantage
+
+> [!check]- Answer
+> 还是挺明确的orz  Used in this way the apparatus became known as the pneumatic **through half a century after its invention**, 整段话都在描述它的known、useful，那就很顺的得出是行业惯例，也就选A.
+

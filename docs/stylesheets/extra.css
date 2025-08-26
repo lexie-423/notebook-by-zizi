@@ -283,77 +283,175 @@ width: calc(50% - 15px) !important;
 /*tpo formatter ends*/
 
 /*printer starts*/
-/* --- PDF 打印工具的样式 --- */
 
-.printer-container {
+/* TPO 格式转换工具 & PDF 打印工具 - 共享样式 */
+
+/* --- 1. 定义颜色变量 --- */
+.tool-card-container, /* 应用于所有工具卡片 */
+[data-md-color-scheme="slate"] .subtitle {
+    /* 默认亮色模式 */
+    --tpo-card-bg: #fff;
+    --tpo-card-border: #e0e0e0;
+    --tpo-card-shadow: rgba(0, 0, 0, 0.08);
+    --tpo-main-text: var(--md-default-fg-color);
+    --tpo-subtle-text: var(--md-default-fg-color--light);
+    --tpo-textarea-bg: #f9f9f9;
+    --tpo-textarea-border: #ccc;
+    --tpo-textarea-focus-bg: #fff;
+    --tpo-output-bg: #f5f7fa;
+    --tpo-output-border: #dfe4ea;
+}
+
+[data-md-color-scheme="slate"] .tool-card-container,
+[data-md-color-scheme="slate"] .subtitle {
+    /* 夜间模式 */
+    --tpo-card-bg: #2d333b;
+    --tpo-card-border: #434a53;
+    --tpo-card-shadow: rgba(0, 0, 0, 0.25);
+    --tpo-textarea-bg: #22272e;
+    --tpo-textarea-border: #434a53;
+    --tpo-textarea-focus-bg: #2d333b;
+    --tpo-output-bg: #20252b;
+    --tpo-output-border: #434a53;
+}
+
+/* --- 2. 应用变量到共享组件样式 --- */
+.tool-card-container {
     max-width: 900px;
     margin: 1.5rem auto;
     padding: 2rem 2.5rem;
-    background-color: var(--tpo-card-bg, #fff); /* 复用 TPO 工具的变量 */
+    background-color: var(--tpo-card-bg);
     border-radius: 16px;
-    box-shadow: 0 8px 30px var(--tpo-card-shadow, rgba(0,0,0,0.08));
-    border: 1px solid var(--tpo-card-border, #e0e0e0);
+    box-shadow: 0 8px 30px var(--tpo-card-shadow);
+    border: 1px solid var(--tpo-card-border);
     transition: background-color 0.25s, border-color 0.25s;
 }
 
-#markdown-input {
+.subtitle {
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    color: var(--tpo-subtle-text);
+    font-size: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--tpo-main-text);
+    font-size: 0.9rem;
+}
+
+.tool-card-container textarea {
     width: 100%;
-    min-height: 300px; /* 提供更大的输入空间 */
-    padding: 1rem;
-    border: 1px solid var(--tpo-textarea-border, #ccc);
+    min-height: 150px;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--tpo-textarea-border);
     border-radius: 8px;
     resize: vertical;
     box-sizing: border-box;
-    background-color: var(--tpo-textarea-bg, #f9f9f9);
-    color: var(--tpo-main-text, #333);
+    background-color: var(--tpo-textarea-bg);
+    color: var(--tpo-main-text);
     transition: all 0.25s ease-in-out;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
 }
 
-#markdown-input:focus {
+#markdown-input { /* 让打印工具的输入框更高一些 */
+    min-height: 300px;
+}
+
+.tool-card-container textarea:focus {
     outline: none;
     border-color: var(--md-primary-fg-color, #526cfe);
     box-shadow: 0 0 0 3px rgba(82, 108, 254, 0.2);
-    background-color: var(--tpo-textarea-focus-bg, #fff);
+    background-color: var(--tpo-textarea-focus-bg);
 }
 
-/* --- 打印时的特殊样式 --- */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: var(--md-primary-fg-color, #526cfe);
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+/* TPO 工具专用的输出框样式 */
+#output-text {
+    min-height: 250px;
+    background-color: var(--tpo-output-bg);
+    color: var(--tpo-main-text);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85em;
+    border-color: var(--tpo-output-border);
+    cursor: default;
+}
+
+#output-text:focus {
+    box-shadow: none;
+}
+
+
+/* --- 打印时的特殊样式 (仅用于 printer.md) --- */
 @media print {
-    /* 1. 隐藏所有不需要打印的元素 */
-    .md-header,
-    .md-sidebar,
-    .md-tabs,
-    .md-footer,
+    .md-header, .md-sidebar, .md-tabs, .md-footer,
     .md-content > .md-content__button,
-    .printer-container, /* 隐藏输入工具本身 */
-    h1, /* 隐藏 "即时 PDF 打印工具" 这个标题 */
-    .subtitle {
+    .tool-card-container, /* 隐藏工具卡片本身 */
+    h1, .subtitle {
         display: none !important;
     }
 
-    /* 2. 让打印内容区域完全占据页面 */
     .md-main .md-content {
         padding: 0 !important;
         margin: 0 !important;
     }
     
     #print-content-area {
-        display: block !important; /* 确保它可见 */
+        display: block !important;
     }
 
-    /* 3. 确保打印内容使用正确的主题样式 */
-    /* 这一步通常是自动的，因为我们没有移除主题的 CSS 链接 */
-    /* 我们可以重置一些属性以获得更好的打印效果 */
     body {
-        background-color: #fff !important; /* 打印时强制白色背景 */
-        color: #000 !important; /* 打印时强制黑色文字 */
+        background-color: #fff !important;
+        color: #000 !important;
     }
     
-    /* 强制移除主题可能在打印时添加的链接 URL */
     a:after {
         content: "" !important;
     }
 }
+
 /*printer ends*/
