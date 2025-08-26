@@ -79,14 +79,21 @@
 > F. The fruit tree and fishpond system provided the base for the expansion of the silk industry.
 
 
-A√
-B. ×
-原文 By 1600 this trade resulted in an annual inflow of perhaps 200,000 kilograms of silver into the coastal economies of south and southeast China. 实在是没有和other markets 的比较
-**C.** to meet the demand for fruits 没有体现是为了满足需求，只是正好实现了 fertilize ×
-原文 The carp fed on organic matter that either dropped or was thrown into the pond,while the mud scooped up from the pond fertilized the fruit trees and the rice fields and added height to the embankments and more protection for the fishponds.
-D. √
-The traders who transported exports from the Pearl River region to Japan were Portuguese：√
-原文 .Either with their own funds or with silver that Japanese merchants supplied,Portuguese traders **headed up the Pearl River（沿着珠江）** to biannual fairs in the city of Guangzhou where they exchanged silver for export goods.These goods were loaded onto ships bound for the Japanese city of Nagasaki.
-whereas the merchants taking exports to Manila were Chinese：√
-Chinese merchants from Guangdong and Fujian provinces sailed to Manila with their goods,which the Spanish bought with silver.
-E. 
+> [!check]- Answer
+> A√
+> B. ×
+> 原文 By 1600 this trade resulted in an annual inflow of perhaps 200,000 kilograms of silver into the coastal economies of south and southeast China. 实在是没有和other markets 的比较
+> **C.** to meet the demand for fruits 没有体现是为了fruits，只是正好实现了 fertilize ×
+> 原文 The carp fed on organic matter that either dropped or was thrown into the pond,while the mud scooped up from the pond fertilized the fruit trees and the rice fields and added height to the embankments and more protection for the fishponds.
+> D. √
+> The traders who transported exports from the Pearl River region to Japan were Portuguese：√
+> 原文 .Either with their own funds or with silver that Japanese merchants supplied,Portuguese traders **headed up the Pearl River（沿着珠江）** to biannual fairs in the city of Guangzhou where they exchanged silver for export goods.These goods were loaded onto ships bound for the Japanese city of Nagasaki.
+> whereas the merchants taking exports to Manila were Chinese：√
+> Chinese merchants from Guangdong and Fujian provinces sailed to Manila with their goods,which the Spanish bought with silver.
+> E.  × 和C一样，没有fish
+> 原文 In the fifteenth century peasant farmers in the Pearl River Delta began replacing some of their sand-flat rice fields with fishponds,**probably in response to increased demand from Guangzhou**.On the embankments,peasant farmers in the early Ming Dynasty (1368-1644)mostly planted fruit trees,giving rise to the fruit tree and fishpond combination. 
+> - The fruit tree and fishpond culture provided a ready-made base for expansion of the silk industry.
+> F. 完全对，原话。
+> 原文 The fruit tree and fishpond culture provided a ready-made base for expansion of the silk industry.
+> 
+> ∴ ADF
