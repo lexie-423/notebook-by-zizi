@@ -58,3 +58,20 @@ F. Studies of brain activity suggest that the two facial pits provide snakes wit
 > 依旧是表述错误。这段话把optic的可能性排除了。
 > 
 > >We are left with two other possibilities to consider: Either the effect is photochemical, which means that the infrared radiation is absorbed by a specific compound, analogous to the light- sensitive pigments in the eye, or the pit organs are sensitive to the slight temperature rise caused when infrared radiation reaches it. The infrared radiation emitted from a mammalian body has low quantum energy, which makes any photochemical effect on a pigment extremely unlikely. Pure infrared radiation can be produced by a laser, and experiments with such radiation of known wavelength provide strong evidence that the mode of reception in the facial pit organ is entirely thermal.
+
+## Reading 2
+
+> [!note]+ Paragraph
+> In the early 1700s, the air was widely seen as just such an environment, and "air" and "the air" were one and the same thing. Chemists were not in the habit of regarding airs or gases as having different chemical properties. There was simply air. One obvious reason for this was practical Chemists could examine solids and liquids, exposing them to a variety of tests and seeing how they contributed to assorted reactions. **Chemists had, however, no comparable way of examining air** ; and they came to view chemistry as the sum total of the reactions of solids and liquids, excluding gases. Chemists stressed chemical qualities over physical properties like weight and let physicists deal with air. Chemists generally did not examine air, and they did not try to weigh it. That does not mean that chemists did not weigh substances. They did a lot of weighing, and pharmacists and metallurgists did more. But weighing gases was outside their brief. In the Encyclopedia of Diderot and Alembert, published between 1751 and 1775. readers were told that "the incoercibility of gases will remove them from our researches for a long time to come."
+
+> [!question]+ Question
+> What is the main point of paragraph 2?
+> A. Diderot and d'Alembert were the first to recognize that gases were a third state of matter
+> B. Advances in pharmacy and metallurgy led to a better understanding of gases
+> C. Early chemists had no tools for investigating the chemical properties of gases
+> D. By performing various tests on solids and liquids, chemists were able to better understand gases.
+
+> [!check]- Answer
+> 答案是C，虽然也没有很准确，其实我觉得更准确的是没有这样的认识或者意识，但是C是最接近的了，剩下的肯定不是这段话 **主要** 讲的东西嘛
+> hint是 Chemists had, however, no comparable way of examining air. 这里的comparable是和solid 和 liquid相比，也算是C的意思
+

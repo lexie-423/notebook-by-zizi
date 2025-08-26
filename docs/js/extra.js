@@ -70,3 +70,38 @@ ${formatBlock(answer)}`;
         copyBtn.addEventListener('click', copyToClipboard);
     }
 });
+
+// --- PDF 打印工具的逻辑 ---
+document.addEventListener('DOMContentLoaded', () => {
+    // 检查是否在 PDF 打印工具页面
+    if (document.querySelector('.printer-container')) {
+
+        const markdownInput = document.getElementById('markdown-input');
+        const printBtn = document.getElementById('print-btn');
+        const printContentArea = document.getElementById('print-content-area');
+
+        printBtn.addEventListener('click', () => {
+            const markdownText = markdownInput.value;
+
+            if (!markdownText.trim()) {
+                alert('请输入需要打印的内容！');
+                return;
+            }
+
+            // 检查 marked.js 是否加载成功
+            if (typeof marked === 'undefined') {
+                alert('Markdown 渲染库加载失败，请检查网络或配置。');
+                return;
+            }
+
+            // 1. 将用户输入的 Markdown 转换为 HTML
+            const htmlContent = marked.parse(markdownText);
+            
+            // 2. 将转换后的 HTML 放入专门用于打印的容器中
+            printContentArea.innerHTML = htmlContent;
+
+            // 3. 调用浏览器的打印功能
+            window.print();
+        });
+    }
+});

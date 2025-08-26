@@ -313,7 +313,8 @@ nav:
         - TPO65: English/toefl/reading/tpo65.md
         - TPO71: English/toefl/reading/tpo71.md
         - TPO74: English/toefl/reading/tpo74.md
-        - Formatter: English/toefl/reading/tpo_formatter.md
+        - 解析格式化工具: English/toefl/reading/tpo_formatter.md
+        - Printer: English/toefl/reading/printer.md
       - Listening:
         - TPO: English/toefl/listening/tpo.md
       - Speaking:

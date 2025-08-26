@@ -1,7 +1,8 @@
-<div class="tpo-formatter-container">
-    <h1>TPO 格式化工具</h1>
-    <p class="subtitle">在此输入内容，一键生成标准 Callout 格式。</p>
+# TPO 格式转换工具
 
+在此输入内容，一键生成标准 Callout 格式。
+
+<div class="tpo-formatter-container">
     <div class="form-group">
         <label for="paragraph-input">Paragraph (段落)</label>
         <textarea id="paragraph-input" placeholder="在此输入段落原文..."></textarea>

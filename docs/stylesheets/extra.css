@@ -139,16 +139,17 @@ width: calc(50% - 15px) !important;
 
 /*tpo formatter*/
 
-/* TPO 格式转换工具 - 经典 UI + 夜间模式 */
+/* TPO 格式转换工具 - 最终版 (统一标题和字体) */
 
 /* --- 1. 定义颜色变量 --- */
-.tpo-formatter-container {
-    /* 默认亮色模式 (Light Mode) - 这是您喜欢的版本 */
+.tpo-formatter-container,
+[data-md-color-scheme="slate"] .subtitle {
+    /* 默认亮色模式 */
     --tpo-card-bg: #fff;
     --tpo-card-border: #e0e0e0;
     --tpo-card-shadow: rgba(0, 0, 0, 0.08);
-    --tpo-main-text: #333;
-    --tpo-subtle-text: #666;
+    --tpo-main-text: var(--md-default-fg-color); /* 继承主题的文字颜色 */
+    --tpo-subtle-text: var(--md-default-fg-color--light); /* 继承主题的次要文字颜色 */
     --tpo-textarea-bg: #f9f9f9;
     --tpo-textarea-border: #ccc;
     --tpo-textarea-focus-bg: #fff;
@@ -156,14 +157,12 @@ width: calc(50% - 15px) !important;
     --tpo-output-border: #dfe4ea;
 }
 
-/* 当 Material 主题切换到夜间模式时，自动应用这些变量 */
-[data-md-color-scheme="slate"] .tpo-formatter-container {
-    /* 夜间模式 (Dark Mode) */
-    --tpo-card-bg: #2d333b; /* 一个柔和的深色背景 */
+[data-md-color-scheme="slate"] .tpo-formatter-container,
+[data-md-color-scheme="slate"] .subtitle {
+    /* 夜间模式 */
+    --tpo-card-bg: #2d333b;
     --tpo-card-border: #434a53;
     --tpo-card-shadow: rgba(0, 0, 0, 0.25);
-    --tpo-main-text: #cdd9e5; /* 适合阅读的亮灰色文字 */
-    --tpo-subtle-text: #88929d;
     --tpo-textarea-bg: #22272e;
     --tpo-textarea-border: #434a53;
     --tpo-textarea-focus-bg: #2d333b;
@@ -171,11 +170,11 @@ width: calc(50% - 15px) !important;
     --tpo-output-border: #434a53;
 }
 
-/* --- 2. 应用变量到组件样式 (基于您喜欢的版本) --- */
+/* --- 2. 应用变量到组件样式 --- */
 .tpo-formatter-container {
     max-width: 900px;
-    margin: 2rem auto;
-    padding: 2.5rem;
+    margin: 1.5rem auto; /* 调整与上方标题的间距 */
+    padding: 2rem 2.5rem; /* 微调内边距 */
     background-color: var(--tpo-card-bg);
     border-radius: 16px;
     box-shadow: 0 8px 30px var(--tpo-card-shadow);
@@ -183,18 +182,11 @@ width: calc(50% - 15px) !important;
     transition: background-color 0.25s, border-color 0.25s;
 }
 
-.tpo-formatter-container h1 {
+/* 副标题现在在卡片外部，需要单独设置样式 */
+.subtitle {
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--tpo-main-text);
-}
-
-.tpo-formatter-container .subtitle {
-    text-align: center;
-    margin-bottom: 2.5rem;
+    margin-top: -1rem; /* 紧随 H1 标题 */
+    margin-bottom: 2rem;
     color: var(--tpo-subtle-text);
     font-size: 1rem;
 }
@@ -211,19 +203,23 @@ width: calc(50% - 15px) !important;
     font-size: 0.9rem;
 }
 
+/* 关键改动：统一字体 */
 .tpo-formatter-container textarea {
     width: 100%;
-    min-height: 180px;
-    padding: 1rem;
+    min-height: 150px; /* 稍微减小默认高度 */
+    padding: 0.8rem 1rem;
     border: 1px solid var(--tpo-textarea-border);
     border-radius: 8px;
-    font-size: 1rem;
-    line-height: 1.6;
     resize: vertical;
     box-sizing: border-box;
     background-color: var(--tpo-textarea-bg);
     color: var(--tpo-main-text);
     transition: all 0.25s ease-in-out;
+    
+    /* 以下三行是实现字体统一的核心 */
+    font-family: inherit; /* 继承主题的字体 */
+    font-size: inherit;   /* 继承主题的正文字号 */
+    line-height: inherit; /* 继承主题的行高 */
 }
 
 .tpo-formatter-container textarea:focus {
@@ -237,12 +233,12 @@ width: calc(50% - 15px) !important;
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin: 2.5rem 0;
+    margin: 2rem 0;
 }
 
 .btn {
     padding: 0.8rem 2rem;
-    font-size: 1rem;
+    font-size: 0.9rem; /* 按钮字体也可以稍小一些 */
     font-weight: 600;
     color: #fff;
     border: none;
@@ -269,11 +265,13 @@ width: calc(50% - 15px) !important;
     background-color: #28a745;
 }
 
+/* 输出框保持等宽字体，方便查看格式 */
 #output-text {
     min-height: 250px;
     background-color: var(--tpo-output-bg);
     color: var(--tpo-main-text);
     font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85em; /* 调整为相对大小 */
     border-color: var(--tpo-output-border);
     cursor: default;
 }
@@ -284,3 +282,78 @@ width: calc(50% - 15px) !important;
 
 /*tpo formatter ends*/
 
+/*printer starts*/
+/* --- PDF 打印工具的样式 --- */
+
+.printer-container {
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 2rem 2.5rem;
+    background-color: var(--tpo-card-bg, #fff); /* 复用 TPO 工具的变量 */
+    border-radius: 16px;
+    box-shadow: 0 8px 30px var(--tpo-card-shadow, rgba(0,0,0,0.08));
+    border: 1px solid var(--tpo-card-border, #e0e0e0);
+    transition: background-color 0.25s, border-color 0.25s;
+}
+
+#markdown-input {
+    width: 100%;
+    min-height: 300px; /* 提供更大的输入空间 */
+    padding: 1rem;
+    border: 1px solid var(--tpo-textarea-border, #ccc);
+    border-radius: 8px;
+    resize: vertical;
+    box-sizing: border-box;
+    background-color: var(--tpo-textarea-bg, #f9f9f9);
+    color: var(--tpo-main-text, #333);
+    transition: all 0.25s ease-in-out;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#markdown-input:focus {
+    outline: none;
+    border-color: var(--md-primary-fg-color, #526cfe);
+    box-shadow: 0 0 0 3px rgba(82, 108, 254, 0.2);
+    background-color: var(--tpo-textarea-focus-bg, #fff);
+}
+
+/* --- 打印时的特殊样式 --- */
+@media print {
+    /* 1. 隐藏所有不需要打印的元素 */
+    .md-header,
+    .md-sidebar,
+    .md-tabs,
+    .md-footer,
+    .md-content > .md-content__button,
+    .printer-container, /* 隐藏输入工具本身 */
+    h1, /* 隐藏 "即时 PDF 打印工具" 这个标题 */
+    .subtitle {
+        display: none !important;
+    }
+
+    /* 2. 让打印内容区域完全占据页面 */
+    .md-main .md-content {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    #print-content-area {
+        display: block !important; /* 确保它可见 */
+    }
+
+    /* 3. 确保打印内容使用正确的主题样式 */
+    /* 这一步通常是自动的，因为我们没有移除主题的 CSS 链接 */
+    /* 我们可以重置一些属性以获得更好的打印效果 */
+    body {
+        background-color: #fff !important; /* 打印时强制白色背景 */
+        color: #000 !important; /* 打印时强制黑色文字 */
+    }
+    
+    /* 强制移除主题可能在打印时添加的链接 URL */
+    a:after {
+        content: "" !important;
+    }
+}
+/*printer ends*/
