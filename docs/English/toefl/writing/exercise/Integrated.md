@@ -474,8 +474,6 @@ Lastly, while the writing states the crest can be used to make sounds in order t
 
 ## TPO 75
 
-# Integrated Writing
-
 In the lecture, the professor casts doubt on the reading passage's method on how to control the spread of invasive Northern Pacific sea stars.  The professor asserts these methods won't really stop spreading.
 
 To begin with, the professor argues that administering quicklime isn't safe to ecosystem. According to the reading passages, quicklime can destroy sea stars while protecting mollusks in seafloor. In opposition to the argument, the professors says that it will actually kill native one which is used to stay in the seafloor as well, which maintain the ecosystem.
@@ -484,7 +482,7 @@ Moreover, the professor claims that the strategy to introduce parasites might no
 
 Finally, the professor rebuts the reading's point that sterilizing ballast water can prevent them from spreading to new areas, by stating that it isn't the only way for then to spread to new places. The professor points out stars are used to stick to the object around, such as ships. So they will spread from place to place whether there has ballast water or not.
 
-## Suggestions
+### Suggestions
 
 **1. Score:**
 
@@ -613,7 +611,7 @@ By implementing these suggestions, you can make your summary even more accessibl
 
 I hope this detailed feedback is helpful! Please let me know if you have any further questions or would like me to review another essay.
 
-## Answer
+### Answer
 
 **范文版本1**
 

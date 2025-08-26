@@ -309,11 +309,13 @@ nav:
         - English/Interpretation/homework/Material.md    
     - Toefl:
       - Reading:
-        - TPO: English/toefl/reading/tpo.md
+        - TPO65: English/toefl/reading/tpo65.md
+        - TPO74: English/toefl/reading/tpo74.md
       - Listening:
         - TPO: English/toefl/listening/tpo.md
       - Speaking:
         - note: English/toefl/speaking/note.md 
+        - 独立口语: English/toefl/speaking/task1.md 
       - Writing:
         - Exercise:
           - 学术写作: English/toefl/writing/exercise/Academic.md
