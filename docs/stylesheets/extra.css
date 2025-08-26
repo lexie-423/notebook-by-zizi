@@ -135,3 +135,116 @@ width: calc(50% - 15px) !important;
     width: calc(100% - 15px) !important;
 }
 }
+
+
+/*tpo formatter*/
+
+/* TPO 格式转换工具专属样式 */
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto; /* 在主题内容区内居中 */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.input-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 12px;
+    border: 1px solid #dcdfe6;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1.6;
+    resize: vertical;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box; /* 确保 padding 不会影响宽度 */
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #409eff;
+    box-shadow: 0 0 0 2px rgba(64, 158, 255, 0.2);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #409eff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #66b1ff;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#copy-btn {
+    background-color: #67c23a;
+}
+
+#copy-btn:hover {
+    background-color: #85ce61;
+}
+
+.output-section {
+    margin-top: 20px;
+}
+
+.output-section h2 {
+    border-bottom: 2px solid #eef2f5;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+#preview-area {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 20px;
+    min-height: 100px;
+}
+
+/* 预览区域的 Blockquote 样式 */
+#preview-area blockquote {
+    margin: 1em 0;
+    padding: 10px 20px;
+    border-left: 5px solid #409eff;
+    background-color: #ecf5ff;
+    color: #333;
+}
+
+/*tpo formatter ends*/
+

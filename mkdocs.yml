@@ -107,6 +107,7 @@ markdown_extensions:
       auto_title: false # 显示编程语言名称
 extra_javascript:
   - js/katex.js
+  - js/extra.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
@@ -311,6 +312,7 @@ nav:
       - Reading:
         - TPO65: English/toefl/reading/tpo65.md
         - TPO74: English/toefl/reading/tpo74.md
+        - Formatter: English/toefl/reading/tpo_formatter.md
       - Listening:
         - TPO: English/toefl/listening/tpo.md
       - Speaking:
