@@ -1,5 +1,7 @@
 # 学术写作
 
+please give an exact grade to the following passage according to the writing rubric, and please correct the passage and make it reach 5.0, the words should be limited within 180 words:
+
 
 # 综合写作
 

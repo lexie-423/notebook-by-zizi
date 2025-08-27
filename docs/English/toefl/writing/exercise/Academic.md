@@ -2,7 +2,32 @@
 
 ## Exercise 1
 
-TBD
+
+> [!example] Exercise 1
+> Longevity
+> 
+> Your professor is teaching a class on social studies. Write a post responding to the professor's question. In your response, you should
+> 
+> - express and support your personal opinion
+> - make a contribution to the discussion in your own words
+> An effective response will contain at least 100 words.
+> 
+> Professor: Life expectancies are increasing all over the world nowadays. Some of you probably know someone who is more than 100 years old. Before our next class, I want you to consider the following question: What factors do you think have contributed to the increase in life expectancy? Is it due to advances in medical technology, improvements in public health, changes in lifestyle habits, or something else entirely?
+> 
+> Lisa: I think the main reason why people are living longer nowadays is recent advances in medical technology. Modern medicine has enabled us to better treat and manage chronic illnesses, and there have been major breakthroughs in areas such as cancer treatment and organ transplantation. As a result, people are able to live longer with diseases that may have been fatal in the past.
+> 
+> John: While medical technology has certainly played a role, I think improvements in public health have been just as important. We now have access to clean drinking water, sanitation systems, and vaccines that have dramatically reduced the incidence of infectious diseases. Even a century ago, people didn’t have access to any of these things. Additionally, public health campaigns have helped educate people about healthy lifestyle habits such as exercise, healthy eating, and not smoking, which can also contribute to longer lifespans.
+
+> [!tip] Answer
+> I think John has made a good point that improvements in public health play an important role in the increase in life expectancy. Furthermore, I think it is also closely relative to the improvement of the living standard and the salary. In the recent past, encountering a bad disease, such as cancer, people have no ability to go to hospital embracing death in their home. Nowadays, with the development of economics and people’s welfare, people of different living standards have the ability to get the treatment, declining the death causing by the lack of money and treatment. People also foster the awareness to protect their body in their daily life, improving their health and finally increasing their life expectancy. In conclusion, the improvement of economics has widely contributed to the increase of life expectancies in the world.
+
+> [!info] 修改（语法）
+> ![](img_v3_02pi_105b39fb-9ed3-4a74-b38e-4bc3f2648ffg.jpg)
+> While I agree with John that advancements in public health are crucial for increased life expectancy, I believe another equally significant factor is the **marked improvement in living standards and economic well-being**. In the past, when individuals faced a severe illness like cancer, limited financial resources often meant they had no option ==but to **succumb to their conditions at home without proper medical intervention**== (更委婉！). However, with global economic development and enhanced social welfare, people from diverse socioeconomic backgrounds now have significantly **better access to advanced medical treatments and specialized care**. This increased affordability directly **reduces mortality rates that were previously exacerbated by a lack of money and accessible healthcare**. Moreover, a higher living standard often **correlates with** improved education, leading individuals to **adopt healthier lifestyle habits** and **a greater awareness** of preventive care, ==such as balanced nutrition and regular exercise==（more specific的举例）. Therefore, the overall economic prosperity and improved welfare globally have profoundly contributed to people living longer, healthier lives.
+> 
+>- succumb: v.(to sth) to not be able to fight an attack, an illness, a temptation , etc.屈服；屈从；抵挡不住（攻击、疾病、诱惑等）
+>
+
 
 
 > [!note] Sample 1

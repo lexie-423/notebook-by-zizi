@@ -130,3 +130,57 @@ Honestly, I agree with the statement. I think people taking too many photos affe
 
 ## Exercise 4
 
+> [!question]
+> Some professors answer students’ questions at the end of a lecture, while other professors prefer to answer questions in the middle of the lecture when they come up. Which approach is better and why?
+
+### 回答v1
+
+Honestly, I agree with the statement that the professor should answer students' questions at the end of a lecture. First of all, this can save time of the class. This is because students' questions will usually be mentioned at the rest of the class, so it can avoid a lot of unnecessary explanations. Second, answering students' question at the end of a lecture can meet the initial need means of the students. It can actually explain what the students really need and does improve efficiency there. For professor should answer students' questions at the end of a lecture.
+
+### 思路
+
+1. 万能理由：节省时间；统一解答问答，避免重复讲同样的内容
+2. 万能理由：学习；实现教学目标；可能会忘记教学目标，导致重点的遗漏。
+### Answer
+
+Well, I think the professor should answer questions at the end of the class. First off, it really saves time. This is because the answer to some of the student's questions could **reveal itself later in the lecture**, like maybe in the second half of the lecture through discussions or professor's examples. So by answering questions at the end, the professor can avoid **wasting time on repeating the same thing over and over again**. Besides, answering questions at the end of the lecture can help professor to achieve the learning outcome. This is because if the questions interrupts the professor's teaching, he may **lose his train of thought and he may forget mentioning some key points**. So by answering questions at the end can make sure the professor can cover everything. Therefore, I think it is better to answer questions at the end of the class.
+
+### 语言
+
+1. reveal itself 自己揭晓、显露出来 
+2. second-half 后半段 
+3. waste time on (doing) something 浪费时间做某事 
+4. achieve learning objectives 实现教学目标 
+5. lose train of thought 打断思路 
+6. mention 提到
+
+## Exercise 5
+
+> [!question]
+> Question：
+> Do you agree or disagree with the following statement? Schools should not allow students to use calculators during math exams.
+
+Honestly, I disagree with the statement. I think that students should be allowed to use calculators during math exams. Firstly, it saves time. This is because if not using calculators, students will waste a lot of time calculating simple digits over and over again. So by allowing students to use calculators during math exams, schools can actually evaluate the true ability of students to analyze the math problems. Secondly, it can meet the actual needs. By allowing students to use calculators during math exams, schools can encourage students to make full use of the calculator, thus improving their problem-solving skills. Therefore, I think that students should be allowed to use calculators during math exams.
+
+## Exercise 6
+
+> [!question]
+> Do you think the government should give financial support to build museums and theatres? Explain why.
+
+
+### Answer
+
+Honestly, I think the government should give money to build museums and theaters. First off, this can **create job opportunities**. This is because while building these places, you need to hire a lot of **construction workers**. And after the place is built, hundreds or even thousands of people would be working there. So people in town could find good jobs and **support themselves**. Besides, I think museums is an important place for us to learn history. This is because they collect and **preserve** important things from the past and **put them on display**, like paintings or even jewelry. So by looking at these objects, we can **have a sense of pride in our own culture**. Therefore, the government should build museums and theaters.
+
+### 思路
+
+万能理由：金钱 -> 就业
+### Language
+
+重点语言： 
+1. create job opportunities 创造就业机会 
+2. construction workers 建筑工人 
+3. support oneself 养活自己 
+4. preserve 保护 
+5. put something on display 展示 
+6. have a sense of pride in something 对某事很自豪
