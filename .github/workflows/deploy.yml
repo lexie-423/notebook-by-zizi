@@ -20,6 +20,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      - name: Set PYTHONPATH for custom plugins
+        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/plugins" >> $GITHUB_ENV
+      - name: Remove __pycache__ folders
+        run: find . -type d -name "__pycache__" -exec rm -rf {} +
       - name: Deploy to GitHub Pages
         run: |
           mkdocs gh-deploy --force
