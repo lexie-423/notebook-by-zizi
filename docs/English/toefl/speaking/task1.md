@@ -184,3 +184,43 @@ Honestly, I think the government should give money to build museums and theaters
 4. preserve 保护 
 5. put something on display 展示 
 6. have a sense of pride in something 对某事很自豪
+
+## Exercise 7
+
+> [!help]  Question
+> When facing difficulties, some people choose to keep their senses of humour; but others may take problems seriously. which do you prefer and why?
+
+### 回答v1
+
+### Answer
+
+Honestly, when facing with problems, I would like to keep my sense of humor. First off, it brings me **courage**. This is because humor brings laughter, and laughter can **take away my fear**. In this case, I can face to the problems directly and try to sail through them. Besides, I would like to keep my sense of humor because it can help me to become more creative. This is because humor can totally reduce my anxiety. It can help me to **loosen up**. In this case, I can try to **energize my thinking** and try to be creative and **think outside of the box**. So because of these two reasons, I would like to keep my sense of humor when facing problems.
+
+### Language & 思路
+
+- 带来勇气：courage，带走恐惧
+- 更富有创造力，缓解焦虑，思维发散
+
+重点语言： 
+1. courage 勇气 
+2. take away fear 带走恐惧
+3. sail through the problems 解决问题 
+4. loosen someone up 使我放松不焦虑 
+5. energize my thinking 激发我的思考 
+6. think outside the box 另辟蹊径/创造性思考
+
+## Exercise 7
+
+> [!note] Question
+> Some people like to purchase the product they like as soon as it is available, while some prefer to wait until the price of the product becomes more affordable. Which do you prefer?
+
+Honestly, I wouldn't buy a product **at launch**. I would wait a little bit. First off, I can save money. This is because companies usually **charge a premium** on new products, and if I wait a little bit, the price will become cheaper, like by 20 or even 30%. So this is very important to me because I **live on a tight budget**. Besides, I would like to wait a little bit because I want to avoid mistakes. This is because while waiting I can **read reviews** about this product. I can find out whether the product **delivers on its promises**, whether the product is reliable or not. In this case, I can make sure the money is well spent. Therefore, I would like to wait a little bit.
+
+### Language
+
+ 1. launch (新产品)上市 
+ 2. charge a premium 收取溢价 
+ 3. live on a tight budget 预算紧张 
+ 4. read reviews 阅读产品测评 
+ 5. deliver on its promises 像承诺的一样 
+ 6. reliable 可靠的
