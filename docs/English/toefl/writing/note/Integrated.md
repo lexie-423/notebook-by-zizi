@@ -1,7 +1,7 @@
 ## 开头句
 
 开头1：
-- The professor **made the point that**... **on the contrary\ in contrast\ however**, the writer demonstrated a different\ contradictory idea that...
+- The writer **made the point that**... **on the contrary\ in contrast\ however**, the professor **demonstrated** a different\ contradictory idea that...
 开头2:
 - The reading and the lecture **are both about** ecocertification of wood products, which is a way to show that they are environmentally friendly. **The author of the reading believes that** American companies will not adopt this practice. **The lecturer casts doubts on the claims made in the article.** **She thinks that** American wood companies will eventually certify their products.
 开头3:

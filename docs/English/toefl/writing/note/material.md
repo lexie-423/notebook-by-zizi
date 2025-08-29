@@ -9,6 +9,41 @@
 7.  畅想未来 contribute to a more efficient, informed and personalized world for everyone
 8.  重要的 pivotal salient.
 
+
+## 综合写作
+
+### 认为：
+
+- argue
+- state
+- contend
+- believe
+- say
+- posit
+- claim
+- point out
+- note
+- present
+- put forth the idea that...
+- suggest
+- demonstrate
+
+### 反对
+
+- refute
+- rebut
+- challenge
+- contradict
+- cast doubt on
+- counter
+- disagree
+- be contrary to
+- critism
+
+### 进一步解释
+
+- Furthermore, she elaborates on this by mentioning that...
+- establish that
 ## 经济
 
 ### 词汇/表述
