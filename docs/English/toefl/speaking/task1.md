@@ -209,7 +209,7 @@ Honestly, when facing with problems, I would like to keep my sense of humor. Fir
 5. energize my thinking 激发我的思考 
 6. think outside the box 另辟蹊径/创造性思考
 
-## Exercise 7
+## Exercise 8
 
 > [!note] Question
 > Some people like to purchase the product they like as soon as it is available, while some prefer to wait until the price of the product becomes more affordable. Which do you prefer?
@@ -224,3 +224,4 @@ Honestly, I wouldn't buy a product **at launch**. I would wait a little bit. Fir
  4. read reviews 阅读产品测评 
  5. deliver on its promises 像承诺的一样 
  6. reliable 可靠的
+

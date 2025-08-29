@@ -156,6 +156,9 @@ Will people have more free time and be able to enjoy more leisure activities in 
 - I think \_\_\_\_\_\_  has made a good point on \_\_\_\_\_\_  /that \_\_\_\_\_\_. From my perspective, ....
 - I believe that … / I firmly hold the idea that … / In my opinion, … / As far as I am concerned, … / It is obvious that …
 
+**构建让步：**
+- While I agree with David's optimistic assessment that AI is fundamentally a powerful tool for progress, I believe its true impact extends beyond merely analyzing data and identifying patterns. 
+
 正述观点后置论据
 1. Practical experience will greatly promote / hinder students' academic development **as** they can deepen their understanding in their field of study. (25)
 2. The overuse of technology will have a positive / negative impact on our personal development **since** it will hinder our independent thinking. (29)

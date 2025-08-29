@@ -23,6 +23,7 @@
 
 > [!info] 修改（语法）
 > ![](img_v3_02pi_105b39fb-9ed3-4a74-b38e-4bc3f2648ffg.jpg)
+> 
 > While I agree with John that advancements in public health are crucial for increased life expectancy, I believe another equally significant factor is the **marked improvement in living standards and economic well-being**. In the past, when individuals faced a severe illness like cancer, limited financial resources often meant they had no option ==but to **succumb to their conditions at home without proper medical intervention**== (更委婉！). However, with global economic development and enhanced social welfare, people from diverse socioeconomic backgrounds now have significantly **better access to advanced medical treatments and specialized care**. This increased affordability directly **reduces mortality rates that were previously exacerbated by a lack of money and accessible healthcare**. Moreover, a higher living standard often **correlates with** improved education, leading individuals to **adopt healthier lifestyle habits** and **a greater awareness** of preventive care, ==such as balanced nutrition and regular exercise==（more specific的举例）. Therefore, the overall economic prosperity and improved welfare globally have profoundly contributed to people living longer, healthier lives.
 > 
 >- succumb: v.(to sth) to not be able to fight an attack, an illness, a temptation , etc.屈服；屈从；抵挡不住（攻击、疾病、诱惑等）
@@ -39,6 +40,112 @@
 > From my perspective, John has made a quite sounding point. I attribute the longevity to the well-developed and continuously-advancing public health system, boosting the wellbeing from infants to the elderly. Looking back to our childhood, we all received those varies anti-disease doses in the first years of our life. Now as a teenager, many of us are suggested to take some medical precautions against the HPV. The promotion of the public health system and the propaganda of health ideologies pushed our actions and raised the awareness of our health, contributing to lower disease rates and longer life expectancy. The medical technology mentioned by Lisa has made its devotion, but we should note that not all citizens are affordable for those high-techs. Does it mean that they'll definitely die earlier? 
 
 ## Exercise 2
+
+**题目：**
+> [!example] AI
+> Your professor is teaching a class on computer science. Write a post responding to the professor's question. In your response, you should
+> 
+> - express and support your personal opinion
+> - make a contribution to the discussion in your own words
+> An effective response will contain at least 100 words.
+> 
+> Professor: A new story about Artificial Intelligence (AI) is in the news almost every day. And, of course, companies are spending an enormous amount of money to develop new technologies related to AI. Before next class, I want you to consider the following question:
+> 
+> Is AI a dangerous technology that, overall, will (be harmful to society,) or is it a powerful tool that will improve the lives of people?
+> 
+> Megan: Personally, I think AI is a threat to society. As AI technology advances, many jobs may become automated, leaving people without work and that will certainly increase income inequality. Additionally, there’s the risk that AI systems could be programmed with biases or used to discriminate against certain groups. We need to be careful and ensure that AI is developed in an ethical and responsible way. Since we can’t guarantee that right now, I think it is best to slow down when it comes to this kind of technology.
+> 
+> David: I disagree with Megan. I’m of the opinion that AI is a tool for progress. It has the potential to solve many of the world’s problems, from climate change to disease. Additionally, AI can help us make better decisions by analyzing vast amounts of data and identifying patterns that humans may miss. That said, I agree with Megan that we must ensure that AI is developed and used in a responsible way that benefits society as a whole.
+
+**我的回答：**
+> [!tip] Answer
+> I think David has made a good point that AI is actually a powerful tool that will promote the living standard of people. From my perspective, not only will AI technology help us analyze data and identifying patterns, but also it will meet our needs more personally and customized, dramatically promoting our living standard. For instance, the large language model can help us solve our academic headaches whenever and wherever we want, and the application using AI technology will predict and recommend what we need in the welcoming page as soon as we open the app, extremely saving our time. In conclusion, while the AI technology has the risk of having some moral mistakes, it can be avoided with proper use, and it will ultimately benefit for the world using its knowledge.
+
+**字数:** 119词 (符合要求)
+
+**评分：3.0分 (部分成功)**
+
+**详细分析：**
+
+1.  **内容与观点 (Content & Opinion):**
+    *   您明确表达了赞同David的观点，认为AI是提升生活水平的强大工具，并在此基础上提出了自己独特的见解，即AI能够更个性化、定制化地满足需求。这一点符合任务要求。
+    *   您提供了具体的例子来支持您的观点，例如大型语言模型解决学术问题和AI驱动的应用程序推荐。
+    *   在结论中，您也简要提到了AI的潜在风险（"moral mistakes"），并认为可以通过“proper use”来避免，这显示了对Megan观点的回应和平衡，但回应略显简单。
+
+2.  **语言使用 (Language Use):**
+    *   **词汇与措辞：**
+        *   "identifying patterns" 应与 "analyze data" 并列，改为 "identify patterns" 更自然。
+        *   "more personally and customized" 搭配不当，应为 "more personalized and customized" 或 "in a more personal and customized way"。
+        *   "dramatically promoting our living standard" 表述略显口语化，可替换为 "significantly enhancing our quality of life" 等更学术的表达。
+        *   "academic headaches" 虽然能够理解，但在学术讨论中可能显得不够正式，可考虑 "complex academic challenges" 或 "difficult academic tasks"。
+        *   "welcoming page" 更常用 "landing page" 或 "home page"。
+        *   "extremely saving our time" 中 "extremely" 修饰动词不自然，应为 "greatly saving our time" 或 "saving us a significant amount of time"。
+        *   "having some moral mistakes" 措辞不准确，更专业的表达可以是 "ethical considerations"、"potential for misuse" 或 "inherent biases/risks"。
+        *   "benefit for the world using its knowledge" 句式略显笨拙，可改进为 "its knowledge will ultimately benefit the world"。
+    *   **语法与句法结构：**
+        *   存在一些语法错误和不地道的表达，如上述词汇部分所指出的。
+        *   句式结构相对简单，缺乏复杂句和多样性，例如多处使用简单的主谓宾结构或并列句。
+        *   文章的衔接词使用尚可，但整体行文流畅度受限于语言表达的准确性。
+
+3.  **连贯性与组织 (Cohesion and Coherence):**
+    *   文章结构清晰，有明确的开头、论证和结论。
+    *   逻辑线索清晰可循，从认同David的观点，到提出自己的扩展论点，再用具体例子支撑，最后进行总结并回应潜在风险。
+    *   段落内部观点组织良好。
+
+**总结：** 您的回答在内容和结构上表现良好，观点清晰且有支撑。但是，语言表达是主要弱项，存在一些语法错误、词汇使用不准确和不地道的表达，以及句式缺乏多样性，这些问题影响了整体的学术性和流畅度，使其未能达到更高的分数。
+
+---
+
+### **修改后的版本（目标5.0分）**
+
+**修订要点：**
+
+*   **提升语言的精确性和地道性：** 修正语法错误，替换不自然的措辞为更符合学术语境的表达。
+*   **增加句式多样性：** 运用复合句、从句、分词结构等，使文章更具表现力。
+*   **加强论证的深度和细节：** 对个性化需求和效率提升的论证进行更具体的阐述。
+*   **对风险的回应更平衡和成熟。**
+*   **确保逻辑流畅与连贯。**
+
+**修改后的回答：**
+
+> [!info] 修改
+> ==While I agree with David's optimistic assessment that AI is fundamentally a powerful tool for progress, I believe its true impact extends beyond merely analyzing data and identifying patterns.==  From my perspective, AI's capacity to **address our individual needs with unprecedented personalization and customization** will dramatically elevate our quality of life. For instance, advanced large language models can **provide instant, tailored solutions to complex academic challenges**, effectively acting as personal tutors available anywhere, anytime. Similarly, AI-powered applications learn our preferences, **proactively predicting and recommending relevant content** on their landing pages, thereby **saving us significant time and cognitive effort**. While acknowledging Megan's valid concerns regarding potential ethical issues and biases, I contend that these risks can be **mitigated through thoughtful regulation and responsible development**. Ultimately, the immense knowledge and capabilities of AI, when properly harnessed, will undoubtedly contribute to a more efficient, informed, and personalized world for everyone.
+
+---
+
+**修订后分析（目标5.0分）：**
+
+1.  **内容与观点:**
+    *   开头明确且更精确地表达了对David观点的认同，并引入了“AI对个人需求的史无前例的个性化和定制化能力”这一核心论点。
+    *   对大型语言模型和AI应用提供个性化推荐的例子进行了更具体、更学术的阐述（如“提供即时、量身定制的复杂学术问题解决方案”，“主动预测和推荐相关内容”）。
+    *   对Megan关于风险的担忧进行了更平衡和成熟的回应（“这些风险可以通过深思熟虑的监管和负责任的开发来减轻”），而不是简单地说“可以避免”。
+    *   结论更具概括性和影响力。
+
+2.  **语言使用:**
+    *   **词汇与措辞：**
+        *   "promote the living standard of people" 改为 "elevate our quality of life"，更地道和学术。
+        *   "not only will AI technology help us analyze data and identifying patterns" 改为 "its true impact extends beyond merely analyzing data and identifying patterns"，句式更高级，表达更精确。
+        *   "meet our needs more personally and customized" 改为 "address our individual needs with unprecedented personalization and customization"，措辞更精准，使用了更丰富的词汇。
+        *   "academic headaches" 改为 "complex academic challenges"，更正式。
+        *   "welcoming page" 改为 "landing pages"，更准确。
+        *   "extremely saving our time" 改为 "saving us significant time and cognitive effort"，表达更严谨。
+        *   "having some moral mistakes" 改为 "potential ethical issues and biases"，更专业。
+        *   "it can be avoided with proper use" 改为 "these risks can be mitigated through thoughtful regulation and responsible development"，回应更全面和具建设性。
+        *   "benefit for the world using its knowledge" 改为 "the immense knowledge and capabilities of AI, when properly harnessed, will undoubtedly contribute to a more efficient, informed, and personalized world for everyone"，更具说服力。
+    *   **语法与句法结构：**
+        *   修正了所有语法错误。
+        *   使用了多种高级句式，如独立主格结构 ("While acknowledging Megan's valid concerns..."), 从句 ("that AI is fundamentally a powerful tool...", "that these risks can be mitigated..."), 伴随状语 ("effectively acting as personal tutors..."), 使文章富有变化和表现力。
+        *   整体语言表达流畅、精确，符合地道英语的习惯和学术写作的要求。
+
+3.  **连贯性与组织:**
+    *   文章开头通过"While I agree with David's optimistic assessment..." 自然地承接了讨论，并清晰地提出了自己的论点。
+    *   段落内部和段落之间的过渡词和短语使用得当，如 "From my perspective", "For instance", "Similarly", "While acknowledging...", "Ultimately"，使文章逻辑严谨，易于理解。
+    *   观点展开层层递进，从认同到扩展，再到具体例证，最后总结并平衡不同观点。
+
+**字数:** 152词 (符合要求，且在建议的100-120词范围内，允许略长)
+
+这个修改后的版本在内容深度、语言的精确性、地道性以及句式多样性方面都有显著提升，能够达到托福独立写作5.0分的标准。
+
 
 > [!note] Sample 1
 > I strongly agree with David’s idea that AI will help us deal with many serious problems currently affecting society. I’d add that AI has already been used to make driving safer and reduce car accidents, so we already have some proof that AI is helping people around the world. Megan raised the relevant point that AI could eliminate certain jobs, but she didn’t mention that AI is creating new jobs. For example, when new products are invented using AI they still have to be manufactured, which means that new factory jobs are created. Not only that, but AI learning tools can help people increase their skills and make themselves more attractive employees for various companies. Overall, then, I would say that AI will improve our lives.
@@ -753,3 +860,8 @@ In my opinion cities include a vast number of academic and cultural facilities. 
 The topic of globalization has generated much discussion in recent years. My personal belief is that when nations interact together it leads to less suffering. For example, people who suffer from natural catastrophes can import goods and services to help mitigate (reduce/alleviate) their losses and recover quickly. Citizens of nations who may be going through war or famine can flee to neighbouring countries for shelter. I understand Alex’s concern over cultural homogenization, but I believe she misses another critical point. Much of the food found in grocery stores around the world is imported. Our very diet is due to the international trade partnerships and alliances forged over the last half of the 20th century. International trade and travel are not possible in a world without globalization, which is why I believe it is crucial to maintain our current global policies for a safer world with a higher standard of living.
 
 也可以I totally agree with xxx point about xxx and I would like to add
+
+## Exercise 23
+
+I am in favor of Rachel’s opinion, and I have something to add. For students, facilities like libraries can offer students extra knowledge, such as the further proof of a hard theorem in mathematics, which will ignite their interest in certain area. Furthermore, the optimization of the environment of facilities like libraries will create a more positive atmosphere for students and professors and motivate them to dive
+themselves into learning. From a broader perspective, a library with large capacity and the most advanced equipment can definitely raise the level of school. Therefore, funding for environment of libraries can promote the reputation of the university, thus appealing to more talented professors and benefiting the school as a whole. 113

@@ -334,13 +334,14 @@ nav:
         - Note:
           - 学术写作: English/toefl/writing/note/Academic.md
           - 综合写作: English/toefl/writing/note/Integrated.md
-    - Material:
-      - English/material/index.md
-      - Words:
-        - TPO: English/material/words/tpo.md
-      - Writing:
-        - 劳动: English/material/writing/labor.md
-        - 心理健康: English/material/writing/mental.md
+          - 作文素材: English/toefl/writing/note/material.md
+    # - Material:
+    #   - English/material/index.md
+    #   - Words:
+    #     - TPO: English/material/words/tpo.md
+    #   - Writing:
+    #     - 劳动: English/material/writing/labor.md
+    #     - 心理健康: English/material/writing/mental.md
   - Research:
     - Research/index.md
     - Clip: Research/Clip.md
