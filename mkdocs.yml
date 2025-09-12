@@ -161,8 +161,10 @@ nav:
           - HW0B: cs/algorithm/cs61b/HW0B.md
           - lab1: cs/algorithm/cs61b/Lab1_Note.md
           - proj1: cs/algorithm/cs61b/Proj1_Summary.md
-      - 数据结构基础:
-        - cs/algorithm/fds/index.md
+      - 算法设计与智能计算(信电):
+        - cs/algorithm/ds/index.md
+      # - 数据结构基础:
+      #   - cs/algorithm/fds/index.md
     - System: 
       - cs/system/index.md
       - CO:
