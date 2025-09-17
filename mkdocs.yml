@@ -348,7 +348,7 @@ nav:
     - Research/index.md
     - Clip: Research/Clip.md
     - 电路识别: Research/Detection.md
-    - 备忘录: Research/devops.md
+    - Yolov11: Research/yolo.md
   - Others: 
     - Others/index.md
     - 雕版印刷与课本文化: Others/PrintingCulture.md
