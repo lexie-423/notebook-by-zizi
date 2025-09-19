@@ -170,30 +170,11 @@ nav:
       - CO:
         - cs/system/CO/index.md
         - 1. Introduction: cs/system/CO/1.md
-        # - 2. Machine Language: cs/system/CO/2.md
-        # - 3. Arithmatic: cs/system/CO/3.md
       - DD:
         - cs/system/DD/index.md
-        - verilog:
-          - cs/system/DD/verilog/index.md
-          - Note: cs/system/DD/verilog/Language.md
-          - Sequence: cs/system/DD/verilog/Sequence.md
-          - FSM: cs/system/DD/verilog/FSM.md
-        - 数字系统设计:
-          - cs/system/DD/dld/index.md
-          - 1 基础理论知识: cs/system/DD/dld/1.md
-          # - 2 门电路: cs/system/DD/dld/2.md
-          # - 3 组合逻辑: cs/system/DD/dld/3.md
-          # - 4 时序逻辑: cs/system/DD/dld/4.md
-          # - 5 控制器与微码: cs/system/DD/dld/5.md
-          # - 6 测试器与查错: cs/system/DD/dld/6.md
-          # - 7 脉冲电路: cs/system/DD/dld/7.md
-          # - 8 处理器: cs/system/DD/dld/8.md
-      # - HPC: 
-      #   - cs/system/HPC/index.md
-      #   - 1. Tools: cs/system/HPC/Tools.md
-      # - CSAPP:
-      #   - cs/system/CSAPP/index.md
+        - verilog: cs/system/dd/verilog.md
+        - note: cs/system/dd/note.md
+        - experiment: cs/system/dd/report.md
     - Tools:
       - cs/tools/index.md
       - 1. Git: cs/tools/git-advance.md
@@ -231,12 +212,12 @@ nav:
       - 2.自动微分的Pytorch实现: AI/DL/2.md
     - 机器学习:
       - AI/ML/index.md
+      - 0. 机器学习概述: AI/ML/0.md
       - 1. 统计学习&监督学习概论: AI/ML/1.md
       - 2. 感知机: AI/ML/2.md
     - 其他知识:
       - AI/Others/index.md
       - 1. 搜索: AI/Others/Search.md
-      - 2. 机器学习概述: AI/ML/0.md
   - Math: 
     - Math/index.md
     - 复变函数与积分变换: Math/complex/index.md
@@ -300,8 +281,6 @@ nav:
         - isee/elec/test.md
     - 电子电路设计实验I:
       - isee/elec-exp1/index.md
-    - 数电:
-      - isee/dd/index.md
   - English:
     - English/index.md
     - Interpretation: 
