@@ -482,7 +482,7 @@ Example：0 <font color=##FF0000>1</font><font color=##C0C0C0>(代表是负指�
 
 ## 下载版
 
-<object data="note.pdf" type="application/pdf" width="100%" height="500">
-    <embed src="note.pdf" type="application/pdf" />
+<object data="note.pdf" type="application/pdf" width="100%">
+    <embed src="../note.pdf" type="application/pdf" />
 </object>
 
