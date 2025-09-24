@@ -76,5 +76,15 @@
 > 
 > 因此意思有所偏差，a hot, incandescent body是Earth早期form的时候，而mountain是“contract as they cool”。
 > 
-> B. Continents may have developed early with the formation of rocks and remained constant while mountains formed at their edges as Earth shrank.
+> B. √，在原文第四段：Dana suggested that the continents had formed early in Earth history, when low-temperature minerals such as quartz and feldspar had solidified. Then the globe continued to cool and contract, until the high-temperature minerals such as olivine and pyroxene finally solidified–on the Moon, to form the lunar craters; on Earth, to form the ocean basins. As contraction continued after Earth was solid, its surface began to deform. The boundaries between continents and oceans were most affected by the pressure, and so mountains began to form along continental margins.
+> 
+> C. √，原话在最后一段，Subsidence allowed more sediment to accumulate, causing more subsidence, until finally the weight of the pile caused the sediments to be heated, converted to rock, and then uplifted into mountains.
+> 
+> D. √ 第四段，As contraction continued after Earth was solid, its surface began to deform. The boundaries between continents and oceans were most affected by the pressure, and so mountains began to form along continental margins. With continued contraction came continued deformation, but with the continents and oceans always in the same relative positions. 
+> 
+> E. ×，感觉E比较难。只有最后一段提到了，……who noted that beneath the forest cover, the Appalachian Mountains of North America were built up of folded layers of shallowwater sedimentary rocks。这个Theory讲的是：Subsidence allowed more sediment to accumulate, causing more subsidence, until finally the weight of the pile caused the sediments to be heated, converted to rock, and then uplifted into mountains. 这里的冷却和加热是“直到最终堆积物的重量导致沉积物受热”，和地球冷却没有直接关系
+> 
+> F. 陆海互换性不是因为super continent: With continued cooling, the original continents became unstable and collapsed to form the next generation of ocean floor, and what had formerly been ocean now became dry land. Over the course of geological history, there would be a continual interchange of land and sea, a periodic rearrangement of the landmasses.
+> 
+> 这篇文章确实有点难懂，这道六选三还挺有难度的
 
