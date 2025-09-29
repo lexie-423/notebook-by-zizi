@@ -339,6 +339,10 @@ nav:
       - Others/Network/index.md
       - Lecture 4: Others/Network/Lecture4.md
       - Lecture 6: Others/Network/Lecture6.md
+    - 机器人技术与实践:
+      - Others/robot/index.md
+      - Lec 1: Others/robot/1.md
+      - Lec 2 旋转几何 (Rotation Geometry): Others/robot/2.md
   - Writings:
     - Writings/index.md
     - Essay:
