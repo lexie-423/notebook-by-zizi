@@ -12,9 +12,9 @@ statistics: true
     - Welcome to My [Navigation](https://slowist-lee.github.io/navigation/)!
 
 !!! inline warning "正在整理的笔记"
-    - [计算机组成](cs/system/CO/index.md)
-    - [Verilog](cs/system/DD/verilog/Language.md)
-    - Constructing...
+    - [机器人技术与实践](Others/robot/index.md)
+    - [计算机组成与设计](cs/system/CO/index.md)
+    - [机器学习](AI/ML/index.md)
 
 !!! inline tip "较完善的内容"
     - [复变函数与积分变换](Math/complex/index.md)
