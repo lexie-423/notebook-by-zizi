@@ -235,6 +235,8 @@ nav:
         - 24-25秋冬期末(ACEE): Math/MathModel/test/index.md
   - ISEE: 
     - isee/index.md
+    - 通信原理:
+      - Lec 4: isee/communication/4.md
     - 信息理论:
       - isee/information/index.md
       - 第一节、信息的度量: isee/information/1.md
