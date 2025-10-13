@@ -3,13 +3,8 @@ title: Welcome!
 statistics: true
 ---
 
-# Slowist's Notebook! 
-
-!!! info "About"
-    - 👋 Hi, I'm Slowist from ZheJiang University
-    - ✨ ZJU 本科23级 iseer & aceer
-    - :heart: 喜欢做梦/写东西
-    - Welcome to My [Navigation](https://slowist-lee.github.io/navigation/)!
+# This is zizi
+!!! 每步每段，一分一寸。
 
 !!! inline warning "正在整理的笔记"
     - [机器人技术与实践](Others/robot/index.md)
