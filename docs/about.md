@@ -2,5 +2,5 @@
 
 !!! zizi
 DHU 
-git config --global user.name "lexie-423"
-git config --global user.email "mushroomzizi@outlook.com"
+git config --global user.asname "lexie-423"
+git config --global user.email "mushrhoomzizi@outlook.com"
