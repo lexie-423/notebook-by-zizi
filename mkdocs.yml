@@ -117,7 +117,7 @@ extra_css:
   - stylesheets/extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 
-copyright: Copyright &copy; 2025 Lexie/All Rights Reserved. # 左下角的版权声明
+copyright: Copyright &copy; 2025 Lexie Yu/All Rights Reserved. # 左下角的版权声明
 
 nav:
   - Home:
@@ -205,8 +205,8 @@ nav:
       - Note | 笔记: cs/fundamental/note.md
       - Office | 期中: cs/fundamental/office.md
       - Test | 自测: cs/fundamental/test.md
-  - AI:
-    - AI/index.md
+  - SP:
+    - SP/index.md
     - 深度学习: 
       - AI/DL/index.md
       - 1. Pytorch 基础使用: AI/DL/1.md
