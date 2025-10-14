@@ -1,4 +1,4 @@
-site_name: Slowist's Note
+site_name: Lexie's Note
 site_url: https://slowist-lee.github.io/notebook/
 theme:
   name: material
@@ -42,14 +42,14 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-repo_url: https://github.com/Slowist-Lee/notebook
-repo_name: Slowist/Notebook
+repo_url: https://github.com/lexie-423/notebook-by-zizi
+repo_name: Lexie's Notebook
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Slowist-Lee/slowist-notebook
-    - icon: fontawesome/regular/envelope 
-      link: mailto:<leexin005@163.com> 
+      link: https://github.com/lexie-423
+    - icon: fontawesome/regular/envelope
+      link: mushroomzizi@outlook.com
 
   feedback:
     title: 此页面有帮助吗？
@@ -73,7 +73,7 @@ plugins:
       title_prefix: '🔒'
       summary: '请输入密码查看.'
       encryption_info_message: '此内容已加密, 请输入密码查看.'
-      decryption_failure_message: '密码错误, 如有需要，请联系Slowist'
+      decryption_failure_message: '密码错误, 如有需要，请联系Lexie.'
       hljs: False
       encrypted_something:
         mkdocs-encrypted-toc: [nav, class]
@@ -117,7 +117,7 @@ extra_css:
   - stylesheets/extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 
-copyright: Copyright &copy; 2025 Slowist/All Rights Reserved. # 左下角的版权声明
+copyright: Copyright &copy; 2025 Lexie/All Rights Reserved. # 左下角的版权声明
 
 nav:
   - Home:
