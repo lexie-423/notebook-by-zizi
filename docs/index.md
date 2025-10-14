@@ -4,7 +4,7 @@ statistics: true
 ---
 
 # This is zizi
-!!! 每步每段，一分一寸。
+> 每步每段，一分一寸。
 
 !!! inline warning "正在整理的笔记"
     - [机器人技术与实践](Others/robot/index.md)
@@ -29,8 +29,10 @@ statistics: true
 
 - 智者避免痛苦，而非追求幸福。 —— 叔本华
 
-??? 随缘更新
+??? 日常更新
     - 港式奶茶制作心得
+    - 褚遂良《雁塔》习得体会
+    - 剧院随想
 
 
 -----
