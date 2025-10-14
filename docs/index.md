@@ -7,14 +7,9 @@ statistics: true
 > 每步每段，一分一寸。
 
 !!! inline tip "正在整理的笔记"
-    - [测度论与概率论基础](Others/robot/index.md)
+    - [测度论与概率论基础](SP/index.md)
     - [随机过程](cs/system/CO/index.md)
     - [初等概率论](AI/ML/index.md)
-
-!!! inline tip "较完善的内容"
-    - [复变函数与积分变换](Math/complex/index.md)
-    - [英语口译](English/Interpretation/index.md)
-    - [电子电路基础](isee/elec/index.md)
 
 !!! stastic "站点统计"
     - :material-file-document: {{ pages }} pages
@@ -30,6 +25,7 @@ statistics: true
     - 剧院随想
     - 摄影日志
 
+> 学习过程虽抓耳挠腮，竭尽所能，但难免有挂一漏万之处，还望您不吝赐教！
 
 -----
 
