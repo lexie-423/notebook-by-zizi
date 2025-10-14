@@ -17,7 +17,8 @@ statistics: true
     - :fontawesome-solid-code: {{ codes }} lines
 
 
->  智者避免痛苦，而非追求幸福。 —— 叔本华
+！！！ quote "写给自己的话"
+    智者避免痛苦，而非追求幸福。 ———— 叔本华
 
 ??? 日常更新
     - 港式奶茶制作心得
