@@ -27,12 +27,11 @@ statistics: true
 ![csdiy](1.jpg#only-light)
 ![csdiy](2.png#only-dark)
 
-- 一个人要像一支队伍(｡･ω･｡)  
-- Follow My Heart!( ง `ω´ )۶  
+- 智者避免痛苦，而非追求幸福。 —— 叔本华
 
 ??? 随缘更新
-    - 支教的高中数学讲义和自己的语文讲义   
-    - 修一下数学公式   
+    - 港式奶茶制作心得
+
 
 -----
 
