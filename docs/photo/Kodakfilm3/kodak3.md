@@ -5,9 +5,10 @@
 
 > 非常蓬松的橘猫，在桥边出没。期末周回宿舍路上看见它在睡觉，于是回宿舍拿相机折返拍下了这张照片，作为第三卷胶卷的开头。
 
-![猫 — Kodak Gold 200](cat.jpg "Kodak cat")
-
-*图 1 — 在桥边出没的橙色橘猫（Kodak Gold 200）*
+<figure style="max-width:800px;margin:0 auto;text-align:center;">
+	<img src="./cat.jpg" alt="在桥边出没的橘猫" style="max-width:100%;height:auto;display:block;margin:0 auto;" />
+	<figcaption style="font-size:0.95em;color:#555;margin-top:0.5rem;">图 1 — 在桥边出没的橙色橘猫（Kodak Gold 200）</figcaption>
+</figure>
 
 ---
 
