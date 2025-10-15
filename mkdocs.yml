@@ -281,3 +281,8 @@ nav:
     - Clip: Research/Clip.md
     - 电路识别: Research/Detection.md
     - Yolov11: Research/yolo.md
+  - Gallery:
+    - 写在开头: photo/index.md
+    - Film 菲林卷:
+      - 叁: photo/Kodak.md
+
