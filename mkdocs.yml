@@ -160,11 +160,7 @@ nav:
     - Film 菲林卷:
       - 叁: photo/Kodakfilm3/kodak3.md
   - Writings:
-    - 写在开头:
-    - 古典乐评:
-      - 谢尔盖·拉赫玛尼诺夫:
-        - 帕格尼尼主题狂想曲:
-    - 剧院随想:
-      - 从莫里哀想到的:
-  - Birds:
-    - 校园内的小鸟:
+    - 写在开头:Writing/index.md
+    - 古典乐评: Writing/Classical/intro.md
+      - 谢尔盖·拉赫玛尼诺夫: Writing/Classical/Rach/about-rach.md
+        - 帕格尼尼主题狂想曲: Writing/Classical/Rach/Pag.md
