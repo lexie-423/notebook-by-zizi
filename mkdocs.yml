@@ -143,7 +143,7 @@ nav:
   - Math: 
     - Math/index.md
     - 抽样调查:
-      - 简单随机抽样: Math/sampling survey/simple random samling.md
+      - 简单随机抽样: Math/sampling suevey/simple random samling.md
     - 高等数学（微积分）:
       - 极限计算: Math/Math1/limit.md
     - 复变函数与积分变换: Math/complex/index.md
