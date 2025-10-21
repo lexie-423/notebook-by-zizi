@@ -142,6 +142,8 @@ nav:
       - 1. 搜索: AI/Others/Search.md
   - Math: 
     - Math/index.md
+    - 抽样调查:
+      - 简单随机抽样: Math/sampling survey/simple random sampling.md
     - 高等数学（微积分）:
       - 极限计算: Math/Math1/limit.md
     - 复变函数与积分变换: Math/complex/index.md
