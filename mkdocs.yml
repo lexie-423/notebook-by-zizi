@@ -162,7 +162,7 @@ nav:
     - Film 菲林卷:
       - 叁: photo/Kodakfilm3/kodak3.md
     - 观鸟日记:
-        - 2602 定海湿地公园&叉河水库: docs/All_about_birds/2602/wetland_reservoir/wetland_reservoir2602.md
+        - 2602 定海湿地公园&叉河水库: All_about_birds/2602/wetland_reservoir/wetland_reservoir2602.md
   - Writings:
     - 写在开头: Writing/index.md
     - 古典乐评: 
