@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -21,6 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install --cache-dir ./.cache/pip git+https://github.com/darstib/pyPack.git#subdirectory=mkdocs-toc-plugin
+      - name: Validate site before deployment
+        run: |
+          mkdocs build --strict
+          python scripts/check_site_links.py
       - name: Deploy to GitHub Pages
         run: |
           mkdocs gh-deploy --force
