@@ -5,7 +5,7 @@ theme:
   custom_dir: overrides
   icon:
     logo: material/book
-  favicon: images/favicon.png
+  favicon: assets/logo.jpg
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -49,7 +49,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/lexie-423
     - icon: fontawesome/regular/envelope
-      link: mushroomzizi@outlook.com
+      link: mailto:mushroomzizi@outlook.com
 
   feedback:
     title: 此页面有帮助吗？
@@ -106,10 +106,10 @@ markdown_extensions:
   - pymdownx.highlight: # 代码块高亮
       auto_title: false # 显示编程语言名称
 extra_javascript:
-  - js/katex.js
   - js/extra.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - js/katex.js
 
 extra_css:
   - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
@@ -119,27 +119,18 @@ extra_css:
 
 copyright: Copyright &copy; 2025 Lexie Yu/All Rights Reserved. # 左下角的版权声明
 
+validation:
+  nav:
+    not_found: warn
+  links:
+    not_found: warn
+    unrecognized_links: warn
+
 nav:
   - Home:
     - index.md
     - 更新记录: changelog.md
     - 笔记目录: Content.md
-    - To Do List: Writings/essay/22.md
-  - SP:
-    - SP/index.md
-    - 深度学习: 
-      - AI/DL/index.md
-      - 1. Pytorch 基础使用: AI/DL/1.md
-      - 2.自动微分的Pytorch实现: AI/DL/2.md
-    - 机器学习:
-      - AI/ML/index.md
-      - 0. 机器学习概述: AI/ML/0.md
-      - 1. 统计学习&监督学习概论: AI/ML/1.md
-      - 2. 感知机: AI/ML/2.md
-      - 3. SVM算法: AI/ML/3.md
-    - 其他知识:
-      - AI/Others/index.md
-      - 1. 搜索: AI/Others/Search.md
   - Math: 
     - Math/index.md
     - 抽样调查:

@@ -1,0 +1,30 @@
+name: Check site links
+on:
+  push:
+    branches: ['codex/**']
+  pull_request:
+    branches: [master]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements.txt
+          python -m pip install git+https://github.com/darstib/pyPack.git#subdirectory=mkdocs-toc-plugin
+      - name: Build with strict link validation
+        run: mkdocs build --strict
+      - name: Check rendered links and embedded assets
+        run: python scripts/check_site_links.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check docs/js/extra.js
+          node --check docs/js/katex.js

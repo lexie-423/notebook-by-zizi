@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document$.subscribe(() => {
     // 检查是否在 TPO 格式化工具页面
     if (document.querySelector('.tpo-formatter-container')) {
 
@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const generateBtn = document.getElementById('generate-btn');
         const copyBtn = document.getElementById('copy-btn');
         const outputText = document.getElementById('output-text');
+
+        if (![paragraphInput, questionInput, answerInput, generateBtn, copyBtn, outputText].every(Boolean)) return;
+        if (generateBtn.dataset.initialized) return;
+        generateBtn.dataset.initialized = 'true';
 
         // 核心功能：生成格式化文本
         function generateFormattedText() {
@@ -53,6 +57,10 @@ ${formatBlock(answer)}`;
                 }
             }
             
+            if (!navigator.clipboard) {
+                alert('当前浏览器不支持自动复制，请手动复制输出内容。');
+                return;
+            }
             navigator.clipboard.writeText(outputText.value).then(() => {
                 const originalText = copyBtn.textContent;
                 copyBtn.textContent = '复制成功!';
@@ -72,13 +80,17 @@ ${formatBlock(answer)}`;
 });
 
 // --- PDF 打印工具的逻辑 ---
-document.addEventListener('DOMContentLoaded', () => {
+document$.subscribe(() => {
     // 检查是否在 PDF 打印工具页面
     if (document.querySelector('.printer-container')) {
 
         const markdownInput = document.getElementById('markdown-input');
         const printBtn = document.getElementById('print-btn');
         const printContentArea = document.getElementById('print-content-area');
+
+        if (![markdownInput, printBtn, printContentArea].every(Boolean)) return;
+        if (printBtn.dataset.initialized) return;
+        printBtn.dataset.initialized = 'true';
 
         printBtn.addEventListener('click', () => {
             const markdownText = markdownInput.value;

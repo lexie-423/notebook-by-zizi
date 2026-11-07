@@ -7,9 +7,9 @@ statistics: true
 > 每步每段，一分一寸。
 
 !!! inline tip "正在整理的笔记"
-    - [测度论与概率论基础](SP/index.md)
-    - [随机过程](cs/system/CO/index.md)
-    - [初等概率论](AI/ML/index.md)
+    - 测度论与概率论基础（尚未上传）
+    - 随机过程（尚未上传）
+    - 初等概率论（尚未上传）
 
 !!! stastic "站点统计"
     - :material-file-document: {{ pages }} pages
