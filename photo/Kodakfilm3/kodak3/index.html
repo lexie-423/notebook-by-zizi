@@ -1550,8 +1550,10 @@ if (palette && typeof palette.color === "object") {
     giscus.setAttribute("data-theme", theme) 
 }
 
-// Register event handlers after documented loaded
-document$.subscribe(function() {
+// The comments partial runs before Material's document$ on a full page load.
+// On instant navigation the document is already ready; reuse the palette listener.
+(function() {
+function bindGiscusTheme() {
     var ref = document.querySelector("[data-md-component=palette]")
     if (!ref || ref.dataset.giscusBound) return
     ref.dataset.giscusBound = "true"
@@ -1571,7 +1573,13 @@ document$.subscribe(function() {
         )
     }
     })
-})
+}
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bindGiscusTheme, { once: true })
+} else {
+    bindGiscusTheme()
+}
+})()
 </script>
                 
               </article>
